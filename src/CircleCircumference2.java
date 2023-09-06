@@ -5,6 +5,9 @@ the circumference of a circle
 whose radius is as per user choice
 */
 
+
+// This program demonstrates the use of int, float and double datatype
+
 import java.util.Scanner;
 
 public class CircleCircumference2 {
