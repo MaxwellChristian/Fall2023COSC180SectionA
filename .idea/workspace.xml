@@ -4,26 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08a2b9c9-bd09-4643-b4fe-a8a29bd92724" name="Changes" comment="">
+    <list default="true" id="08a2b9c9-bd09-4643-b4fe-a8a29bd92724" name="Changes" comment="Maxwell Christian">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircleCircumference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleCircumference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CircleCircumference2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircleCircumference2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MaxwellChristian"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dfedc686-ce62-43ae-8d05-c8a625814254" />
+        <option name="url" value="https://github.com/MaxwellChristian/Fall2023COSC180SectionA.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="oxl3uqcl" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2V1lBFUWpbyGxG6reg16hlOFEOm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,6 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/christianm/IdeaProjects/Fall2023COSC180SectionA/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -51,7 +70,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CircleCircumference2">
+  <component name="RunManager" selected="Application.CharacterDemo">
+    <configuration name="CharacterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharacterDemo" />
+      <module name="Fall2023COSC180SectionA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CircleCircumference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CircleCircumference" />
       <module name="Fall2023COSC180SectionA" />
@@ -68,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharacterDemo" />
         <item itemvalue="Application.CircleCircumference2" />
         <item itemvalue="Application.CircleCircumference" />
       </list>
@@ -81,11 +108,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694011330005</updated>
-      <workItem from="1694011331069" duration="1558000" />
+      <workItem from="1694011331069" duration="2003000" />
+      <workItem from="1694015508949" duration="124000" />
+      <workItem from="1694015646222" duration="1869000" />
     </task>
+    <task id="LOCAL-00001" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1694012908340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694012908340</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1694015577920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694015577920</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1694016470865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694016470865</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1694017026181</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694017026181</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Maxwell Christian" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maxwell Christian" />
   </component>
 </project>

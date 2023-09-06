@@ -1,3 +1,4 @@
+package lo_elementary_programming;
 
 // find/calculate/compute and display the area of a circle  with radius 5.2
 public class CalculateAreaOfCircle {
