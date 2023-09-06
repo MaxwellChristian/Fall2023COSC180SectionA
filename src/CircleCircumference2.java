@@ -7,7 +7,7 @@ whose radius is as per user choice
 
 import java.util.Scanner;
 
-public class CircleCircumference {
+public class CircleCircumference2 {
 
     // starting point
     public static void main(String []args) {
@@ -15,13 +15,29 @@ public class CircleCircumference {
         // declaration section
 
         // syntax to define variable: datatype variable_name
-        // datatype used: int -> it can hold only whole numbers [both negative and positive]
+        // datatype used: double -> it can hold numbers with decimals/precision [both negative and positive]
         // variable name: radius
 
-        int radius;
+        // the datatype 'double' is the default data type for decimals in JAVA
+
+        double dRadius;
+        dRadius = 2.7;
+
+        // we can also use float to store values with decimals
+        float fRadius;
+
+        // fRadius = 2.8; // this will not work as the RHS is double while the LHS is float
+        fRadius = 2.7F;
 
         // input section
+        int radius;
         radius = 2;
+
+        double dCircumference;
+        float fCircumference;
+
+        fCircumference = 2 * 3.14F * fRadius;
+        dCircumference = 2 * 3.14 * dRadius;
 
         // defining the input line from where the input will come
         Scanner inputLine = new Scanner(System.in);
@@ -43,7 +59,9 @@ public class CircleCircumference {
         // formula for circumference of a circle is 2*PI*RADIUS
 
         // output section
-        System.out.print("Circumference of the circle with radius " + radius + " is " + (2 * 3.14 * radius));
+        System.out.println("Circumference of the circle with radius (int) " + radius + " is " + (2 * 3.14 * radius));
+        System.out.println("Circumference of the circle with radius (float) " + fRadius + " is " + fCircumference);
+        System.out.println("Circumference of the circle with radius (double) " + dRadius + " is " + dCircumference);
 
     }
 

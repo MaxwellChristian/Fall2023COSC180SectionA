@@ -15,6 +15,9 @@ public class CircleCircumference {
         // declaration section
 
         // syntax to define variable: datatype variable_name
+        // datatype used: int -> it can hold only whole numbers [both negative and positive]
+        // variable name: radius
+
         int radius;
 
         // input section
@@ -22,6 +25,8 @@ public class CircleCircumference {
 
         // defining the input line from where the input will come
         Scanner inputLine = new Scanner(System.in);
+        // System.in -> the source from where the input is expected to come
+        // Scanner -> which captures the input from the source
 
         // capturing the input from user
 
@@ -30,6 +35,7 @@ public class CircleCircumference {
 
         // storing the user input
         radius = inputLine.nextInt();
+        // we are using nextInt as the variable to store is of type int
 
         // assume the user has entered radius as 2
 
