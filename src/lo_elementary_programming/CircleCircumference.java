@@ -18,7 +18,7 @@ public class CircleCircumference {
         // datatype used: int -> it can hold only whole numbers [both negative and positive]
         // variable name: radius
 
-        int radius;
+        double radius;
 
         // input section
         radius = 2;
@@ -31,10 +31,10 @@ public class CircleCircumference {
         // capturing the input from user
 
         // prompting the user to enter an int value
-        System.out.print("Enter an integer radius: ");
+        System.out.print("Enter an radius: ");
 
         // storing the user input
-        radius = inputLine.nextInt();
+        radius = inputLine.nextDouble();
         // we are using nextInt as the variable to store is of type int
 
         // assume the user has entered radius as 2
