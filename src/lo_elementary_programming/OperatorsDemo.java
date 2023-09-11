@@ -107,6 +107,18 @@ public class OperatorsDemo {
 
         System.out.println();   // a blank line
 
+        // demonstrating with char type
+        char ch = 'J';
+        int ans ;
+
+        ans = ch + 1;   // adds 1 to the ASCII of ch and stores in ans i.e. returns the number
+        System.out.println("ans = ch + 1 -> ch: " + ch + ", ans : " + ans + ", " + (char)ans );
+
+        // ch = ans;   // not allowed
+        ch = (char) ans;   // works because of type casting
+        // always specify the destination type for casting
+
+
 
     }
 
