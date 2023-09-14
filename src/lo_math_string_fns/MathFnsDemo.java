@@ -25,6 +25,21 @@ public class MathFnsDemo {
 
         // generate a random number upto 5
         System.out.printf("Generated random : %f\n", Math.random() * 5 );
+
+        // demo of exp i.e., e power x
+        System.out.printf("Exp to 2: %f\n", Math.exp(5));
+
+        // computes the natural log i.e. log to base E
+        System.out.printf("Log(5): %f\n", Math.log(5));
+
+        // computes the natural log10 i.e. log to base 10
+        System.out.printf("Log10(5): %f\n", Math.log10(5));
+
+        // find the maximum from two numbers
+        System.out.println("Max of 5.7 and 8.2 is " + Math.max(5.7, 8.2));
+
+        // display the minimum
+
     }
 
 }
