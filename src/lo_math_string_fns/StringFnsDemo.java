@@ -43,6 +43,10 @@ public class StringFnsDemo {
         System.out.println("First two characters: " + name.substring(3));
         // returns all characters from index 3 onwards
 
+        // display the second word from the string
+
+        // display the last word from the string
+
     }
 
 }
