@@ -43,9 +43,26 @@ public class StringFnsDemo {
         System.out.println("First two characters: " + name.substring(3));
         // returns all characters from index 3 onwards
 
-        // display the second word from the string
 
         // display the last word from the string
+        // last word i.e. word after the last space
+        // find the index of last space and get all characters from
+        // last space to the end of the string
+
+        int indexOfLastSpace = name.lastIndexOf(' ');
+        System.out.println("Last word: " + name.substring(indexOfLastSpace+1));
+
+
+        // display the second word from the string
+        // characters between first and second space
+
+        // search the index of first space
+        // search the index of second space
+        // extract characters between first and second space
+
+        int firstSpaceIndex = name.indexOf(' ');
+        int secondSpaceIndex = name.indexOf(' ', firstSpaceIndex+1);
+        System.out.println("Second word: " + name.substring(firstSpaceIndex+1, secondSpaceIndex));
 
     }
 
