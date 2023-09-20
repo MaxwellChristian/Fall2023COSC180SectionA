@@ -10,10 +10,20 @@ public class TuitionTrend {
     public static void main(String []args) {
 
         int year;
-        double tution = 9610;
+//        int counter;
 
-        for( year = 2023 ; year <= (year+10) ; year+=1 ){
-            System.out.printf("%4d : %d\n", year, 9610 + () );
+        double tuition = 9610;
+        final double tuitionIncreaseRate = 3.5;
+
+        // for( year = 2023, counter = 0 ; counter <= 10 ; counter+=1 ){
+        for( year = 2023 ; year <= 2033 ; /* year++ */ ){
+//            System.out.printf("%4d : %.0f\n", year, tuition );
+//            year++;
+
+            System.out.printf("%4d : %.0f\n", year++, tuition );
+//            year++;
+
+            tuition = tuition + (tuition*(tuitionIncreaseRate/100));
         }
 
     }
