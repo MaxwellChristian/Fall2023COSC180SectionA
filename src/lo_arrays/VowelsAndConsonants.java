@@ -1,4 +1,4 @@
-package lo_loops;
+package lo_arrays;
 
 /*
 * Write a program which will take an input of a line of text from the user and then
@@ -50,6 +50,7 @@ public class VowelsAndConsonants {
                 //System.out.println(ch);
 
                 // check for vowel or consonant
+                /*
                 if( ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'
                 || ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' ){
 
@@ -61,6 +62,27 @@ public class VowelsAndConsonants {
                 else {
                     // append to the consonant list
                     consonants[consonantCounter++] = ch;
+                }
+
+                 */
+
+                // alternate approach using switch
+                switch (ch){
+                    case 'a':
+                    case 'A':
+                    case 'e':
+                    case 'E':
+                    case 'i':
+                    case 'I':
+                    case 'o':
+                    case 'O':
+                    case 'u':
+                    case 'U':
+                        vowels[vowelCounter] = ch;
+                        vowelCounter++;
+                        break;
+                    default:
+                        consonants[consonantCounter++] = ch;
                 }
 
             }
