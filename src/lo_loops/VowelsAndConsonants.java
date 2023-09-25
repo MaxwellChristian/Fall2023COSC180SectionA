@@ -77,10 +77,28 @@ public class VowelsAndConsonants {
         System.out.println();
 
         // display all the consonants
+        /*
         System.out.print("Consonants : ");
         for (index = 0 ; index < consonantCounter ; index++){
-            System.out.print(consonants[index] + " ");
+
+            // check if printing the last element
+            if( index == consonantCounter-1 ){
+                System.out.print(consonants[index] + "");
+            }
+            else {
+                System.out.print(consonants[index] + ", ");
+            }
+
         }
+        */
+
+        System.out.print("Consonants : ");
+        for (index = 0 ; index < consonantCounter-1 ; index++){
+
+            System.out.print(consonants[index] + ", ");
+
+        }
+        System.out.println(consonants[index] + "");
 
     }
 
