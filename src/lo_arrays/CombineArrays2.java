@@ -19,17 +19,17 @@ import java.util.Scanner;
  * arr2 : 100, 78, 75, 11, 11, 78, 75
  * arr3 : 10, 78, 32, 45, 11, 100, 78, 75, 11, 11, 78, 75
  * */
-public class CombineArrays {
+public class CombineArrays2 {
 
     public static void main(String[] args) {
 
         int size1;  // size for array 1
         int size2;  // size for array 2
 
-        int []values1;  // array1 to hold first set of values
-        int []values2;  // array2 to hold second set of values
+        int[] values1;  // array1 to hold first set of values
+        int[] values2;  // array2 to hold second set of values
 
-        int []combinedValues;
+        int[] combinedValues;
         // array to hold both set of values
 
         // line to capture input from user
@@ -51,55 +51,43 @@ public class CombineArrays {
         // create array 2 as per size 2
         values2 = new int[size2];
 
-        // input values in array 1
-        for( int index1 = 0 ; index1 < values1.length ; index1++ ){
-            values1[index1] = new Random().nextInt(100);
-        }
-
-        // input values in array 2
-        for( int index2 = 0 ; index2 < values2.length ; index2++ ){
-            values2[index2] = new Random().nextInt(100);
-        }
-
-        // logic to combine the array 2 after array 1
-
         // create the combined set
-        combinedValues = new int[size1+size2];
+        combinedValues = new int[size1 + size2];
 
         int index3 = 0;
 
-        // copy values from set 1 to set 3
-        for( int index1 = 0 ; index1 < values1.length ; index1++ ){
-            combinedValues[index3] = values1[index1];
-            index3++;
+        // input values in array 1
+        for (int index1 = 0; index1 < values1.length; index1++) {
+            combinedValues[index3++] = values1[index1] = new Random().nextInt(100);
         }
 
-        // then copy values from set 2 to set 3
-        // start at the end of set 1
-        // i.e. append to existing values of set 3
-        for( int index2 = 0 ; index2 < values2.length ; index2++ ){
-            combinedValues[index3] = values2[index2];
-            index3++;
+        // input values in array 2
+        for (int index2 = 0; index2 < values2.length; index2++) {
+            combinedValues[index3++] = values2[index2] = new Random().nextInt(100);
         }
+
+        // logic to combine the array 2 after array 1
+        // already completed when generating random numbers
 
         // display the array 1
-        for( index3 = 0 ; index3 < values1.length ; index3++ ){
-            System.out.print(values1[index3] + " ");
+        for (int currentValue : values1) {
+            System.out.print(currentValue + " ");
         }
         System.out.println();
 
-        // display the array 1
-        for( index3 = 0 ; index3 < values2.length ; index3++ ){
-            System.out.print(values2[index3] + " ");
+        // display the array 2
+        for (int currentValue : values2) {
+            System.out.print(currentValue + " ");
         }
         System.out.println();
 
         // display the combined array
-        for( index3 = 0 ; index3 < combinedValues.length ; index3++ ){
-            System.out.print(combinedValues[index3] + " ");
+        for (int currentValue : combinedValues) {
+            System.out.print(currentValue + " ");
         }
         System.out.println();
 
     }
+
 
 }
