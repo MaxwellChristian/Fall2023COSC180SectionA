@@ -8,6 +8,9 @@ package lo_methods;
 * i.e. does not have any factors
 *
 * perform the check for prime using a method
+*
+* Note: the program should check and work even if
+* start number is less than end number
 * */
 
 import java.util.Scanner;
@@ -26,6 +29,16 @@ public class PrimeNumbers {
 
         System.out.print("Enter end number: ");
         endNumber = inputLine.nextInt();
+
+//        if( startNumber > endNumber ){
+//            // swap the values
+//            int temp = startNumber;
+//            startNumber = endNumber;
+//            endNumber = temp;
+//        }
+
+        startNumber = Math.min(startNumber, endNumber);
+        endNumber = Math.max(startNumber, endNumber);
 
         for( int counter = startNumber ; counter <= endNumber ; counter++ ){
 
