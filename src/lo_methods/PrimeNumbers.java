@@ -11,6 +11,10 @@ package lo_methods;
 *
 * Note: the program should check and work even if
 * start number is less than end number
+*
+* All the prime numbers must be printed on the same line separated by a space.
+* There should not be more than 10 numbers on a single line.
+* After 10 numbers a new line should start.
 * */
 
 import java.util.Scanner;
@@ -40,6 +44,7 @@ public class PrimeNumbers {
         startNumber = Math.min(startNumber, endNumber);
         endNumber = Math.max(startNumber, endNumber);
 
+        int lineCounter = 1;
         for( int counter = startNumber ; counter <= endNumber ; counter++ ){
 
             // check if the counter is prime
@@ -50,7 +55,14 @@ public class PrimeNumbers {
             // }
 
             if(isPrime(counter)){
-                System.out.println(counter + " is prime");
+                if( lineCounter++%10 == 0 ){
+                    System.out.println();
+                }
+                else {
+                    System.out.print(counter + " ");
+                }
+
+                // lineCounter++;
             }
 
         }
