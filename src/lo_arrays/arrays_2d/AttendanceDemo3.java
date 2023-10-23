@@ -15,13 +15,10 @@ public class AttendanceDemo3 {
         int studentCounter;
         int dayCounter;
 
-        int[] studentAttendance = new int[3];
-        int[] dayAttendance = new int[5];
-
-        studentAttendance = getRowWiseTotal(attendanceValues);
+        int[] studentAttendance = getRowWiseTotal(attendanceValues);
         System.out.println(Arrays.toString(studentAttendance));
 
-        dayAttendance = getColWiseTotal(attendanceValues);
+        int[] dayAttendance = getColWiseTotal(attendanceValues);
         System.out.println(Arrays.toString(dayAttendance));
 
         // print the whole matrix/2D-array/table
