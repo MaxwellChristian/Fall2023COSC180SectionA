@@ -21,24 +21,24 @@ public class AttendanceDemo1 {
                 {0, 0, 0, 0, 1}
         };
 
-        int row;
-        int col;
+        int studentCounter;
+        int dayCounter;
 
-        /*for(row = 0 ; row < TOTAL_STUDENTS ; row ++){
-            for( col = 0 ; col < TOTAL_DAYS; col++ ){
-                System.out.print(attendance[row][col] + " ");
+        /*for(studentCounter = 0 ; studentCounter < TOTAL_STUDENTS ; studentCounter ++){
+            for( dayCounter = 0 ; dayCounter < TOTAL_DAYS; dayCounter++ ){
+                System.out.print(attendance[studentCounter][dayCounter] + " ");
             }
             System.out.println();
         }*/
 
-        for(row = 0 ; row < attendance.length ; row ++){
+        for(studentCounter = 0 ; studentCounter < attendance.length ; studentCounter ++){
 
             int rowTotal = 0;
-            for( col = 0 ; col < attendance[row].length; col++ ){
-                System.out.print(attendance[row][col] + " ");
+            for( dayCounter = 0 ; dayCounter < attendance[studentCounter].length; dayCounter++ ){
+                System.out.print(attendance[studentCounter][dayCounter] + " ");
 
                 // increment the total if the student is present i.e, for value 1
-                if( attendance[row][col] == 1 ){
+                if( attendance[studentCounter][dayCounter] == 1 ){
                     rowTotal++;
                 }
             }
@@ -46,6 +46,25 @@ public class AttendanceDemo1 {
             System.out.print(" : " + rowTotal);
 
             System.out.println();
+        }
+
+
+        // calculating day-wise totals
+        // i.e., column-total
+
+        for (dayCounter = 0 ; dayCounter < TOTAL_DAYS ; dayCounter++ ){
+
+            int colTotal = 0 ;
+            for( studentCounter = 0 ; studentCounter < TOTAL_STUDENTS ; studentCounter++ ){
+
+                if( 1 == attendance[studentCounter][dayCounter] ){
+                    colTotal++;
+                }
+
+            }
+
+            System.out.print(colTotal + " ");
+
         }
 
     }
