@@ -14,25 +14,41 @@ public class MethodsAndArrays {
         System.out.println(Arrays.toString(binaryValues));
 
 //        boolean has3 = arrContains(values, 3) > 0;
-        System.out.println("3 exists in array : " + (indexInArray(values, 3) != -1));
+        System.out.println("3 exists in array : " + (indexInArray(values, 0, values.length, 3) != -1));
 
         // modify/add the function to count the total times 55 occurs in random generated array
         int count3 = arrContains(values, 3);
         System.out.println("3 occurs in array " + count3 + " times ");
 
-        int positionFound = indexInArray(values, 3);
+        int positionFound = indexInArray(values, 0, values.length, 3);
         if (positionFound != -1) {
             System.out.println("3 found at : " + positionFound);
         } else {
             System.out.println("3 does not exist in the array");
         }
 
+        // create a new array which holds values after the first occurence of 3
+        int secondPosition = indexInArray(values, positionFound+1, values.length, 3);
+
+        int lastPosition = lastIndexInArray(values, 3);
+
+//        int valueToSearch = 3;
+//        int foundAtPosition = ArrayUtilities.search(values, 0, values.length, valueToSearch);
+
     }
 
-    private static int indexInArray(int[] values, int valueToCheck) {
-        int position = 0;
-        for (int currentValue : values) {
-            if (currentValue == valueToCheck) {
+    private static int lastIndexInArray(int[] values, int valueToCheck) {
+        for (int position = values.length-1 ; position >= 0 ; position--) {
+            if (values[position] == valueToCheck) {
+                return position;
+            }
+        }
+        return -1;
+    }
+
+    private static int indexInArray(int[] values, int startPosition, int endPosition, int valueToCheck) {
+        for (int position = startPosition ; position < endPosition ; position++) {
+            if (values[position] == valueToCheck) {
                 return position;
             }
             position++;
