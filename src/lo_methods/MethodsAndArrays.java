@@ -14,11 +14,24 @@ public class MethodsAndArrays {
         System.out.println(Arrays.toString(binaryValues));
 
 //        boolean has3 = arrContains(values, 3) > 0;
-        System.out.println("3 exists in array : " + (arrContains(values, 3) > 0) );
+        System.out.println("3 exists in array : " + (indexInArray(values, 3) != -1) );
 
         // modify/add the function to count the total times 55 occurs in random generated array
         int count3 = arrContains(values, 3);
         System.out.println("3 occurs in array " + count3 + " times " );
+
+        int positionFound = indexInArray(values, 3);
+    }
+
+    private static int indexInArray(int[] values, int valueToCheck) {
+        int position = 0;
+        for (int currentValue: values){
+            if( currentValue == valueToCheck ){
+                return position;
+            }
+            position++;
+        }
+        return -1;
     }
 
     private static int arrContains(int[] values, int valueToCheck) {
