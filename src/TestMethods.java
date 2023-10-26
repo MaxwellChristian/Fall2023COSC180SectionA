@@ -64,6 +64,10 @@ public class TestMethods {
         // returns two arrays where
         // first array holds all even values and
         // second array holds all odd values
+        // hint: you can return a 2D array
+
+        int [][]filteredEvenOdd = MyUtilities.filterValues(values);
+        MyUtilities.showValues(filteredEvenOdd);
 
     }
 

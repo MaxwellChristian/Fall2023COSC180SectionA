@@ -90,4 +90,13 @@ public class MyUtilities {
             System.out.println(Arrays.toString(values[row]));
         }
     }
+
+    public static int[][] filterValues(int[] values) {
+
+        return new int[][]{
+                filterEvenValues(values),
+                //filterOddValues(values) // can use this also
+                filterValues(values, 1)
+        };
+    }
 }
