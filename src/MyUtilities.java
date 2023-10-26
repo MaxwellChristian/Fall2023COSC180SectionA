@@ -19,17 +19,17 @@ public class MyUtilities {
         return sum;
     }
 
-    private static void test(){
+    private static void test() {
 
     }
 
     private static int[] filterEvenValues(int[] values) {
 
-        int []filteredValues = new int[values.length];
-        int destPos = 0 ;
+        int[] filteredValues = new int[values.length];
+        int destPos = 0;
 
-        for( int sourcePos = 0 ; sourcePos < values.length ; sourcePos++ ){
-            if( values[sourcePos] % 2 == 0 ){
+        for (int sourcePos = 0; sourcePos < values.length; sourcePos++) {
+            if (values[sourcePos] % 2 == 0) {
                 filteredValues[destPos] = values[sourcePos];
                 destPos++;
             }
@@ -39,11 +39,11 @@ public class MyUtilities {
     }
 
     private static int[] filterOddValues(int[] values) {
-        int []filteredValues = new int[values.length];
-        int destPos = 0 ;
+        int[] filteredValues = new int[values.length];
+        int destPos = 0;
 
-        for( int sourcePos = 0 ; sourcePos < values.length ; sourcePos++ ){
-            if( values[sourcePos] % 2 != 0 ){
+        for (int sourcePos = 0; sourcePos < values.length; sourcePos++) {
+            if (values[sourcePos] % 2 != 0) {
                 filteredValues[destPos] = values[sourcePos];
                 destPos++;
             }
@@ -54,7 +54,7 @@ public class MyUtilities {
 
     public static int[] filterValues(int[] values, int valueType) {
 
-        switch (valueType){
+        switch (valueType) {
             case 0:
                 return filterEvenValues(values);
             case 1:
@@ -62,5 +62,32 @@ public class MyUtilities {
         }
 
         return values;
+    }
+
+    public static int indexOf(int valueToSearch, int[] values, int startIndex, int endIndex) {
+
+        for (int index = startIndex; index < endIndex; index++) {
+            if (values[index] == valueToSearch) {
+                return index;
+            }
+        }
+
+        return -1;
+    }
+
+    public static int count(int valueToSearch, int[] values) {
+        int count = 0;
+        for (int value : values) {
+            if (value == valueToSearch) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static void showValues(int[][] values) {
+        for( int row = 0 ; row < values.length ; row++ ){
+            System.out.println(Arrays.toString(values[row]));
+        }
     }
 }
