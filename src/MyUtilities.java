@@ -23,7 +23,7 @@ public class MyUtilities {
 
     }
 
-    public static int[] filterEvenValues(int[] values) {
+    private static int[] filterEvenValues(int[] values) {
 
         int []filteredValues = new int[values.length];
         int destPos = 0 ;
@@ -36,5 +36,31 @@ public class MyUtilities {
         }
 
         return Arrays.copyOfRange(filteredValues, 0, destPos);
+    }
+
+    private static int[] filterOddValues(int[] values) {
+        int []filteredValues = new int[values.length];
+        int destPos = 0 ;
+
+        for( int sourcePos = 0 ; sourcePos < values.length ; sourcePos++ ){
+            if( values[sourcePos] % 2 != 0 ){
+                filteredValues[destPos] = values[sourcePos];
+                destPos++;
+            }
+        }
+
+        return Arrays.copyOfRange(filteredValues, 0, destPos);
+    }
+
+    public static int[] filterValues(int[] values, int valueType) {
+
+        switch (valueType){
+            case 0:
+                return filterEvenValues(values);
+            case 1:
+                return filterOddValues(values);
+        }
+
+        return values;
     }
 }

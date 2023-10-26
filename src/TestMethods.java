@@ -19,8 +19,30 @@ public class TestMethods {
 
         // get an array with even values from the generated array
         // [using a method from MyUtilities]
-        int []evenValues = MyUtilities.filterEvenValues(values);
-        System.out.println(Arrays.toString(evenValues));
+//        int []evenValues = MyUtilities.filterEvenValues(values);
+//        System.out.println(Arrays.toString(evenValues));
+
+        // get an array with odd values from the generated array
+        // [using a method from MyUtilities]
+//        int []oddValues = MyUtilities.filterOddValues(values);
+//        System.out.println(Arrays.toString(oddValues));
+
+        final int TYPE_EVEN = 0;
+        final int TYPE_ODD = 1;
+
+        int []valuesEven = MyUtilities.filterValues(values, TYPE_EVEN);
+        System.out.println(Arrays.toString(valuesEven));
+
+        int []valuesOdd = MyUtilities.filterValues(values, TYPE_ODD);
+        System.out.println(Arrays.toString(valuesOdd));
+
+        // write methods for following
+
+        // from an array search a value and return the available index
+
+        // from an array count the occurences of a value
+
+        // display a 2D array using a method
 
     }
 
