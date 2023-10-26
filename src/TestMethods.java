@@ -19,6 +19,8 @@ public class TestMethods {
 
         // get an array with even values from the generated array
         // [using a method from MyUtilities]
+        int []evenValues = MyUtilities.filterEvenValues(values);
+        System.out.println(Arrays.toString(evenValues));
 
     }
 
