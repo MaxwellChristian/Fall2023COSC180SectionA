@@ -181,7 +181,7 @@ public class MyUtilities {
 
         int initialValue = values[0];
 
-        for( int index = 0 ; index < values.length ; index++ ){
+        for( int index = 1 ; index < values.length ; index++ ){
             if(values[index] < initialValue ) {
                 initialValue = values[index];
             }
