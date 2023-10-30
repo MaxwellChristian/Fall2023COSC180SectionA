@@ -80,7 +80,13 @@ public class TestMethods {
         System.out.println("Row totals: " + Arrays.toString(rowTotals));
 
         int []colTotals = MyUtilities.totals(matrix, MyUtilities.TYPE_COL);
-        System.out.println("Row totals: " + Arrays.toString(rowTotals));
+        System.out.println("Col totals: " + Arrays.toString(colTotals));
+
+        int min = findMinimum(values);  // find the minimum from a 1D array
+        System.out.println("Minimum: " + min);
+
+        int max = findMaximum(values);  // find the maximum from a 1D array
+        System.out.println("Maximum: " + max);
 
     }
 
