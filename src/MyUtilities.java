@@ -4,6 +4,8 @@ public class MyUtilities {
     public static final int TYPE_EVEN = 0;
     public static final int TYPE_ODD = 1;
     public static final int TYPE_PRIME = 2;
+    public static final int TYPE_ROW = 0;
+    public static final int TYPE_COL = 1;
 
     public static int[] generateValues(int totalValuesRequired, int maxValuePermitted) {
 
@@ -113,5 +115,56 @@ public class MyUtilities {
                 //filterOddValues(values) // can use this also
                 filterValues(values, 1)
         };
+    }
+
+    public static int[] totals(int[][] values, int totalType) {
+
+        int []total;
+
+        switch (totalType){
+            case TYPE_ROW:
+                // row total
+                total = new int[values.length];
+
+                for( int row = 0 ; row < values.length ; row++ ){
+                    for( int col = 0 ; col < values[row].length ; col++ ){
+                        total[row] += values[row][col];
+                    }
+                }
+                break;
+            case TYPE_COL:
+
+                // find the row which has max number of cols
+                int maxCols = findMaxCols(values);
+
+                // col total
+                total = new int[maxCols];
+
+                for( int row = 0 ; row < values.length ; row++ ){
+                    for( int col = 0 ; col < values[row].length ; col++ ){
+                        total[row] += values[row][col];
+                    }
+                }
+
+                break;
+        }
+
+
+
+        return total;
+    }
+
+    private static int findMaxCols(int[][] values) {
+
+        int max = 0;
+        for( int row = 0 ; row < values.length ; row++ ){
+
+            if( max < values[row].length ){
+                max = values[row].length;
+            }
+
+        }
+
+        return max;
     }
 }

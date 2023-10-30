@@ -56,9 +56,13 @@ public class TestMethods {
         System.out.println( valueToSearch + " occurs " + countOccurrences + " times");
 
         // display a 2D array using a method
+        // a "jagged" array
         int [][]matrix = {
                 {10, 20, 30, 40, 50},
-                {11, 22, 33, 44, 55},
+                {11, 22, 33},
+                {-1, -2, -3, -4},
+                {-1, -2},
+                {-1, -2, -3, -4},
                 {-1, -2, -3, -4, -5}
         };
         MyUtilities.showValues(matrix);
@@ -72,7 +76,11 @@ public class TestMethods {
         int [][]filteredEvenOdd = MyUtilities.filterValues(values);
         MyUtilities.showValues(filteredEvenOdd);
 
-        int []rowTotals = MyUtilities.totals(matrix, TYPE_ROW);
+        int []rowTotals = MyUtilities.totals(matrix, MyUtilities.TYPE_ROW);
+        System.out.println("Row totals: " + Arrays.toString(rowTotals));
+
+        int []colTotals = MyUtilities.totals(matrix, MyUtilities.TYPE_COL);
+        System.out.println("Row totals: " + Arrays.toString(rowTotals));
 
     }
 
