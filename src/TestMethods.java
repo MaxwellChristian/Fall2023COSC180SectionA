@@ -27,14 +27,17 @@ public class TestMethods {
 //        int []oddValues = MyUtilities.filterOddValues(values);
 //        System.out.println(Arrays.toString(oddValues));
 
-        final int TYPE_EVEN = 0;
-        final int TYPE_ODD = 1;
+//        final int TYPE_EVEN = 1;
+//        final int TYPE_ODD = 0;
 
-        int []valuesEven = MyUtilities.filterValues(values, TYPE_EVEN);
-        System.out.println(Arrays.toString(valuesEven));
+        int []valuesEven = MyUtilities.filterValues(values, MyUtilities.TYPE_EVEN);
+        System.out.println("Even: " + Arrays.toString(valuesEven));
 
-        int []valuesOdd = MyUtilities.filterValues(values, TYPE_ODD);
-        System.out.println(Arrays.toString(valuesOdd));
+        int []valuesOdd = MyUtilities.filterValues(values, MyUtilities.TYPE_ODD);
+        System.out.println("Odd: " + Arrays.toString(valuesOdd));
+
+        int []valuesPrime = MyUtilities.filterValues(values, MyUtilities.TYPE_PRIME);
+        System.out.println("Odd: " + Arrays.toString(valuesPrime));
 
         // write methods for following
 
@@ -68,6 +71,8 @@ public class TestMethods {
 
         int [][]filteredEvenOdd = MyUtilities.filterValues(values);
         MyUtilities.showValues(filteredEvenOdd);
+
+        int []rowTotals = MyUtilities.totals(matrix, TYPE_ROW);
 
     }
 

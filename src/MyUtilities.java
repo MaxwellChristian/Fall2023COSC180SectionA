@@ -1,6 +1,10 @@
 import java.util.Arrays;
 
 public class MyUtilities {
+    public static final int TYPE_EVEN = 0;
+    public static final int TYPE_ODD = 1;
+    public static final int TYPE_PRIME = 2;
+
     public static int[] generateValues(int totalValuesRequired, int maxValuePermitted) {
 
         int[] values = new int[totalValuesRequired];
@@ -55,9 +59,9 @@ public class MyUtilities {
     public static int[] filterValues(int[] values, int valueType) {
 
         switch (valueType) {
-            case 0:
+            case TYPE_EVEN:
                 return filterEvenValues(values);
-            case 1:
+            case TYPE_ODD:
                 return filterOddValues(values);
         }
 
@@ -76,13 +80,24 @@ public class MyUtilities {
     }
 
     public static int count(int valueToSearch, int[] values) {
+
         int count = 0;
-        for (int value : values) {
-            if (value == valueToSearch) {
-                count++;
-            }
-        }
+//        for (int value : values) {
+//            if (value == valueToSearch) {
+//                count++;
+//            }
+//        }
+//        return count;
+
+//        int startIndex = -1;
+//        while ( (startIndex = indexOf(valueToSearch, values, startIndex+1, values.length)) != -1 ) {
+//            count++;
+//        }
+
+        for ( int startIndex = -1;  (startIndex = indexOf(valueToSearch, values, startIndex+1, values.length)) != -1 ; count++ );
+
         return count;
+
     }
 
     public static void showValues(int[][] values) {
