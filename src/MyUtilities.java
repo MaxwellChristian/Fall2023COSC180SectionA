@@ -119,7 +119,7 @@ public class MyUtilities {
 
     public static int[] totals(int[][] values, int totalType) {
 
-        int []total;
+        int []total = new int[0];
 
         switch (totalType){
             case TYPE_ROW:
@@ -127,10 +127,12 @@ public class MyUtilities {
                 total = new int[values.length];
 
                 for( int row = 0 ; row < values.length ; row++ ){
-                    for( int col = 0 ; col < values[row].length ; col++ ){
-                        total[row] += values[row][col];
-                    }
+//                    for( int col = 0 ; col < values[row].length ; col++ ){
+//                        total[row] += values[row][col];
+//                    }
+                    total[row] =  computeTotal(values[row]);
                 }
+
                 break;
             case TYPE_COL:
 
@@ -142,7 +144,7 @@ public class MyUtilities {
 
                 for( int row = 0 ; row < values.length ; row++ ){
                     for( int col = 0 ; col < values[row].length ; col++ ){
-                        total[row] += values[row][col];
+                        total[col] += values[row][col];
                     }
                 }
 
