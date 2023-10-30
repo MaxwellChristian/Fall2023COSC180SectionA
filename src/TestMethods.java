@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class TestMethods {
 
     private static final int TOTAL_VALUES_REQUIRED = 10;
-    private static final int MAX_VALUE_PERMITTED = 5;
+    private static final int MAX_VALUE_PERMITTED = -50;
 
     public static void main(String[] args) {
 
@@ -82,11 +82,19 @@ public class TestMethods {
         int []colTotals = MyUtilities.totals(matrix, MyUtilities.TYPE_COL);
         System.out.println("Col totals: " + Arrays.toString(colTotals));
 
-        int min = findMinimum(values);  // find the minimum from a 1D array
+        int min = MyUtilities.findMinimum(values);  // find the minimum from a 1D array
         System.out.println("Minimum: " + min);
 
-        int max = findMaximum(values);  // find the maximum from a 1D array
+        int max = MyUtilities.findMaximum(values);  // find the maximum from a 1D array
         System.out.println("Maximum: " + max);
+
+        // sort the values in 1D array
+        Arrays.sort(values);
+        System.out.println("Sorted: " + Arrays.toString(values));
+        
+        int []valuesAsc = MyUtilities.sort(values, MyUtilities.SORT.ASCENDING);
+        int []valuesDesc = MyUtilities.sort(values, MyUtilities.SORT.DESCENDING);
+
 
     }
 

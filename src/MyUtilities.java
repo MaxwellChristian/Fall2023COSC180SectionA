@@ -7,6 +7,13 @@ public class MyUtilities {
     public static final int TYPE_ROW = 0;
     public static final int TYPE_COL = 1;
 
+    enum SORT{
+        ASCENDING,
+        DESCENDING
+    }
+    public static final int SORT_ASC = 0;
+    public static final int SORT_DESC = 1;
+
     public static int[] generateValues(int totalValuesRequired, int maxValuePermitted) {
 
         int[] values = new int[totalValuesRequired];
@@ -168,5 +175,49 @@ public class MyUtilities {
         }
 
         return max;
+    }
+
+    public static int findMinimum(int[] values) {
+
+        int initialValue = values[0];
+
+        for( int index = 0 ; index < values.length ; index++ ){
+            if(values[index] < initialValue ) {
+                initialValue = values[index];
+            }
+        }
+
+        return initialValue;
+    }
+
+    public static int findMaximum(int[] values) {
+        int initialValue = values[0];
+
+        for( int index = 1 ; index < values.length ; index++ ){
+            if( values[index] > initialValue ) {
+                initialValue = values[index];
+            }
+        }
+
+        return initialValue;
+    }
+
+    public static int[] sort(int[] values, SORT sortType) {
+
+        switch (sortType){
+            case ASCENDING:
+
+                int []arrayToBeSorted = Arrays.copyOf(values, values.length);
+                Arrays.sort(arrayToBeSorted);
+                return arrayToBeSorted;
+
+//            Arrays.sort(values);
+//            return values;
+
+            case DESCENDING:
+                break;
+        }
+
+        return new int[0];
     }
 }
