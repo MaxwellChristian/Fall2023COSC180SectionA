@@ -6,6 +6,26 @@ public class MyUtilities {
     public static final int TYPE_PRIME = 2;
     public static final int TYPE_ROW = 0;
     public static final int TYPE_COL = 1;
+    public static final int BASE16 = 16;
+    public static final int BASE2 = 2;
+    public static final int BASE8 = 8;
+
+    public static String convertBase(int number, int baseRequired) {
+
+        String result = "";
+
+        switch (baseRequired) {
+            case BASE16:
+                return Integer.toHexString(number);
+            case BASE2:
+                return Integer.toBinaryString(number);
+            case BASE8:
+                return Integer.toOctalString(number);
+
+        }
+
+        return result;
+    }
 
     enum SORT{
         ASCENDING,
@@ -204,10 +224,12 @@ public class MyUtilities {
 
     public static int[] sort(int[] values, SORT sortType) {
 
+        int []arrayToBeSorted;
+
         switch (sortType){
             case ASCENDING:
 
-                int []arrayToBeSorted = Arrays.copyOf(values, values.length);
+                arrayToBeSorted = Arrays.copyOf(values, values.length);
                 Arrays.sort(arrayToBeSorted);
                 return arrayToBeSorted;
 
@@ -215,7 +237,29 @@ public class MyUtilities {
 //            return values;
 
             case DESCENDING:
-                break;
+
+                arrayToBeSorted = Arrays.copyOf(values, values.length);
+
+                // selection sort
+
+                // compare a reference value with each next current value in the array
+                for( int rIndex = 0 ; rIndex < arrayToBeSorted.length ; rIndex++ ){
+
+                    // current value to compare is to be started from the next index of reference value
+                    for( int cIndex = rIndex+1 ; cIndex < arrayToBeSorted.length ; cIndex++ ){
+
+                        // compare if the reference value is larger than the current value
+                        if( arrayToBeSorted[cIndex] > arrayToBeSorted[rIndex] ){
+
+                            // swap the values
+
+                        }
+
+                    }
+
+                }
+
+                return arrayToBeSorted;
         }
 
         return new int[0];

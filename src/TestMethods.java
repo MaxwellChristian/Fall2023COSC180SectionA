@@ -95,6 +95,10 @@ public class TestMethods {
         int []valuesAsc = MyUtilities.sort(values, MyUtilities.SORT.ASCENDING);
         int []valuesDesc = MyUtilities.sort(values, MyUtilities.SORT.DESCENDING);
 
+        String hexa = MyUtilities.convertBase(58, MyUtilities.BASE16);
+        System.out.println("Hexa: " + hexa.toUpperCase());
+        System.out.println("Hexa: " + Integer.toHexString(58).toUpperCase());
+
 
     }
 
