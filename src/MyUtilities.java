@@ -253,6 +253,22 @@ public class MyUtilities {
 
                             // swap the values
 
+                            // variant 1
+//                            int temp ;
+//                            temp = arrayToBeSorted[rIndex];
+//                            arrayToBeSorted[rIndex] = arrayToBeSorted[cIndex];
+//                            arrayToBeSorted[cIndex] = temp;
+
+                            // variant 2
+//                            arrayToBeSorted[rIndex] = arrayToBeSorted[rIndex] + arrayToBeSorted[cIndex];
+//                            arrayToBeSorted[cIndex] = arrayToBeSorted[rIndex] - arrayToBeSorted[cIndex];
+//                            arrayToBeSorted[rIndex] = arrayToBeSorted[rIndex] - arrayToBeSorted[cIndex];
+
+                            // variant 3
+                            arrayToBeSorted[rIndex] ^= arrayToBeSorted[cIndex];
+                            arrayToBeSorted[cIndex] ^= arrayToBeSorted[rIndex];
+                            arrayToBeSorted[rIndex] ^= arrayToBeSorted[cIndex];
+
                         }
 
                     }
