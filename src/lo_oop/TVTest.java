@@ -32,6 +32,14 @@ public class TVTest {
 
         System.out.println( tv1 );
 
+        // display total TVs created
+        // System.out.println( TV.totalTVsCreated );
+        System.out.println( "Total TVs created: " + TV.getTotalTVsCreated() );
+
+        TV tv2 = new TV(true);  // create a TV which is ON
+        TV tv3 = new TV(1, 7);  // create a TV which is ON and volume level at 7
+        TV tv4 = new TV(52, 7, true);  // create a TV which is ON, volume level at 7 and channel set to 52
+
     }
 
 }
