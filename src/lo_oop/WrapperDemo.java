@@ -29,6 +29,20 @@ public class WrapperDemo {
 
         Character cObj = 'A';
 
+        i = Integer.parseInt("897");    // conversion of String to int
+        iObj = Integer.getInteger("897");   // conversion of String to Integer
+
+        int radix = 4 ;
+        String valueToConvert = "1100";
+        int convertedValue = 0 ;
+
+        convertedValue = Integer.parseInt(valueToConvert, radix);
+        System.out.printf("For radix %d, %s -> %d\n", radix, valueToConvert, convertedValue);
+
+        radix = 0 ;
+        valueToConvert = "12";
+        convertedValue = 0 ;
+
 
     }
 
