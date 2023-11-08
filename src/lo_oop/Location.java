@@ -8,7 +8,10 @@ public class Location {
     private  int atRow;
     private  int atColInRow;
 
-    public Location(double maxValue, int atRow, int atColInRow) {
+    private Location() {
+    }
+
+    private Location(double maxValue, int atRow, int atColInRow) {
         this.maxValue = maxValue;
         this.atRow = atRow;
         this.atColInRow = atColInRow;

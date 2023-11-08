@@ -45,8 +45,6 @@ public class LocationTest {
         Location lObj = Location.locateLargest(values);
         System.out.println(lObj);
 
-
-
     }
 
 }
