@@ -15,9 +15,37 @@ the user to enter a two-dimensional array and displays the location of the large
 element in the array.
  */
 
+import java.util.Calendar;
+import java.util.Scanner;
+
 public class LocationTest {
 
     public static void main(String []args) {
+
+        int rows;
+        int cols;
+
+        Scanner inputLine = new Scanner(System.in);
+
+        System.out.print("Enter rows: ");
+        rows = inputLine.nextInt();
+
+        System.out.print("Enter cols: ");
+        cols = inputLine.nextInt();
+
+        double [][]values = new double[rows][cols];
+
+        for( int r = 0 ; r < rows ; r++ ){
+            for( int c = 0 ; c < cols ; c++ ) {
+                System.out.printf("Enter values[%d][%d]: ", r, c);
+                values[r][c] = inputLine.nextDouble();
+            }
+        }
+
+        Location lObj = Location.locateLargest(values);
+        System.out.println(lObj);
+
+
 
     }
 
