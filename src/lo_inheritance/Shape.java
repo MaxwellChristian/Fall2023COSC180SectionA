@@ -1,6 +1,6 @@
 package lo_inheritance;
 
-public class Shape {
+public abstract class Shape {
 
     public ShapeType type;
 
@@ -29,4 +29,6 @@ public class Shape {
                 "color='" + color + '\'' +
                 '}';
     }
+
+    abstract void draw();
 }

@@ -32,4 +32,11 @@ public class Circle extends Shape {
                 "radius=" + radius +
                 "} ";
     }
+
+    @Override
+    void draw() {
+        System.out.println("In DRAW of Circle");
+    }
+
+
 }

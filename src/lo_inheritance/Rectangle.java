@@ -43,4 +43,9 @@ public class Rectangle extends Shape {
                 ", width=" + width +
                 "} ";
     }
+
+    @Override
+    void draw() {
+        System.out.println("In DRAW of Rectangle");
+    }
 }
