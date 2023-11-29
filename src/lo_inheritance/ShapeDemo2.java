@@ -1,10 +1,7 @@
 package lo_inheritance;
 
-import lo_inheritance.multi_level.C;
-import org.w3c.dom.css.Rect;
-
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 
 public class ShapeDemo2 {
 
@@ -66,7 +63,7 @@ public class ShapeDemo2 {
         }
 
         // sort all the shapes
-
+        // Collections.sort(shapes);
     }
 
 }
