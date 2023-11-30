@@ -16,7 +16,7 @@ public class ShapeDemo2 {
         // it expands as and when you add objects to it
 
         shapes.add(new Circle(5));
-        shapes.add(new Circle(1));
+        shapes.add(new Circle(5));
         shapes.add(new Circle(1));
 
         shapes.add(new Rectangle(11, 15));
@@ -64,6 +64,18 @@ public class ShapeDemo2 {
 
         // sort all the shapes
         // Collections.sort(shapes);
+
+        Shape first = shapes.get(0);
+//        Shape second = shapes.get(1);
+        Shape second = shapes.get(shapes.size() - 1);   // last object in array list
+
+        // check if both shapes are same
+        if( first.equals(second) ){
+            System.out.println("Both are equal");
+        }
+        else {
+            System.out.println("Both are Different");
+        }
     }
 
 }

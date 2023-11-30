@@ -1,6 +1,7 @@
 package lo_inheritance.multi_level;
 
-public class C extends B {
+final public class C extends B {
+    // final class cannot be inherited
 
     int cVar;
 

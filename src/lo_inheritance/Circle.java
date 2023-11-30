@@ -42,5 +42,20 @@ public class Circle extends Shape {
         System.out.println("In DRAW of Circle");
     }
 
+    @Override
+    public boolean equals(Object o) {
+
+        // check if both objects are having same reference
+        if (this == o) return true;
+
+        // check if both objects are from different classes
+        if (o == null || this.getClass() != o.getClass()) return false;
+
+        // type cast to current class
+        Circle circle = (Circle) o;
+
+        // compare the required properties
+        return Double.compare(radius, circle.radius) == 0;
+    }
 
 }

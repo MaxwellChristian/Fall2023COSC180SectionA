@@ -1,5 +1,11 @@
 package lo_inheritance;
 
+// public: can be accessed outside the class
+// private: can be accessed only inside the class
+// protected: can be accessed only inside the class and subclasses
+
+import java.util.Objects;
+
 public class Rectangle extends Shape {
 
     private double height;
@@ -39,6 +45,11 @@ public class Rectangle extends Shape {
         return width * height;
     }
 
+    final public void printEdgesDimensions(){
+        // final methods cannot be over ride
+        System.out.println("Width: " + getWidth() + ", Height: " + getHeight());
+    }
+
     @Override
     public String toString() {
         return "Rectangle{" +
@@ -47,6 +58,14 @@ public class Rectangle extends Shape {
                 "height=" + height +
                 ", width=" + width +
                 "} ";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Rectangle rectangle = (Rectangle) o;
+        return Double.compare(height, rectangle.height) == 0 && Double.compare(width, rectangle.width) == 0;
     }
 
     @Override
