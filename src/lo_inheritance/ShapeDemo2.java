@@ -76,6 +76,20 @@ public class ShapeDemo2 {
         else {
             System.out.println("Both are Different");
         }
+
+
+        ArrayList<Shape> alCircles = new ArrayList<>();
+
+        alCircles.add(new Circle(15));
+        alCircles.add(new Circle(151));
+        alCircles.add(new Circle(5));
+        alCircles.add(new Circle(150));
+        alCircles.add(new Circle(155));
+
+        // sort
+
+
+
     }
 
 }

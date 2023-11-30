@@ -1,6 +1,8 @@
 package lo_inheritance;
 
-public class Circle extends Shape {
+import java.util.Comparator;
+
+public class Circle extends Shape implements Comparable<Circle>, Comparator<Circle> {
 
    private double radius;
 
@@ -42,6 +44,8 @@ public class Circle extends Shape {
         System.out.println("In DRAW of Circle");
     }
 
+
+
     @Override
     public boolean equals(Object o) {
 
@@ -58,4 +62,32 @@ public class Circle extends Shape {
         return Double.compare(radius, circle.radius) == 0;
     }
 
+
+    @Override
+    // override from Comparable
+    public int compareTo(Circle o) {
+        if( this == o ){
+            return 0;
+        }
+
+        if( o == null || this.getClass() != o.getClass()){
+            return 0;
+        }
+
+        return (int) (this.getRadius() - o.getRadius());
+    }
+
+    @Override
+    // override from Comparator
+    public int compare(Circle o1, Circle o2) {
+        if( o1 == o2 ){
+            return 0;
+        }
+
+        if( o1 == null || o2 == null || o1.getClass() != o2.getClass()){
+            return 0;
+        }
+
+        return (int) (o1.getRadius() - o2.getRadius());
+    }
 }

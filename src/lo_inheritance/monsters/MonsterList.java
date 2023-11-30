@@ -27,9 +27,27 @@ public class MonsterList
         //Sample problems for ArrayList
 
         //How many Undead Monsters?
+        int totalUnDead = 0 ;
+        for (Monster m: aMonList) {
+            if( m instanceof UnDead ){
+                totalUnDead++;
+            }
+        }
 
         //Create a sublist of Deadly monsters
+        ArrayList<Monster> deadlyMonsters = new ArrayList<>();
+        for (Monster m: aMonList) {
+            if( m.isDeadly() ){
+                deadlyMonsters.add(m);
+            }
+        }
 
         //Count the number of flying undead monsters in the List.
+        totalUnDead = 0 ;
+        for (Monster m: aMonList) {
+            if( m instanceof UnDead && ((UnDead) m).bCanFly ){
+                totalUnDead++;
+            }
+        }
     }
 }
