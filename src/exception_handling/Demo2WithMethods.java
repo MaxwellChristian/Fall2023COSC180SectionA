@@ -24,22 +24,12 @@ public class Demo2WithMethods {
         int arrSize = inputLine.nextInt();
 
         // create the array as per size
-        // int[] arr = new int[arrSize];
         int[] arr = createArray(arrSize);
 
         // initialize the array elements to random numbers upto 5
-//        for (int i = 0; i < arr.length; i++) {
-//            arr[i] = (int) (Math.random() % 5);
-//        }
         initializeArray(arr, 5);
 
         // divide the value at an index by the value at next index
-//        for (int i = 0; i < arr.length - 1; i++) {
-//            int result = arr[i] / arr[i + 1];
-//
-//            // display the result
-//            System.out.printf("%d / %d : %d\n", arr[i], arr[i + 1], result);
-//        }
         showDivisionResult(arr);
 
     }
@@ -60,7 +50,13 @@ public class Demo2WithMethods {
     }
 
     private static int[] createArray(int arrSize) {
-        return new int[arrSize];
+        try {
+            return new int[arrSize];
+        } catch (NegativeArraySizeException ex) {
+            System.out.println("Array size cannot be negative");
+        }
+
+        return new int[0];
     }
 
 }
