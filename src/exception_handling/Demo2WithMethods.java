@@ -37,9 +37,11 @@ public class Demo2WithMethods {
             showDivisionResult(arr);
             System.out.println("Arithmetic operations completed");
 
-            System.out.println("Bye");
+
         } catch (Exception ex) {
             System.out.println(ex);
+        } finally {
+            System.out.println("Bye");
         }
 
     }
