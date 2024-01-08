@@ -14,6 +14,8 @@ public class FileCreationDemo {
 
     public static void main(String[] args) {
 
+        final int CREATE_DIR = 1;
+        final int CREATE_FILE = 2;
 
         // source path
         String sourcePath = "data_files";
@@ -26,39 +28,41 @@ public class FileCreationDemo {
         System.out.print("Select the file type [1: Directory/2: File] : ");
         fileType = inputLine.nextInt();
 
+        System.out.print("Enter the name of the new " + ((fileType == 1) ? "Directory" : "File")  + ": ");
+        fileName = inputLine.next();
+
         switch (fileType) {
-            case 1:
-                System.out.print("Enter the name of the new directory: ");
-                fileName = inputLine.next();
-                File fObj = new File(sourcePath + "\\" + fileName);
-                if (fObj.mkdir()) {
-                    System.out.println("Directory created");
-                } else {
-                    System.out.println("Something went wrong. Directory creation failed");
-                }
+            case CREATE_DIR:
+                createDirectory(sourcePath + "\\" + fileName);
                 break;
-            case 2:
-                System.out.print("Enter the name of the new file: ");
-                fileName = inputLine.next();
-                File fObj2 = new File(sourcePath + "\\" + fileName);
-
-                try {
-                    if (fObj2.createNewFile()) {
-                        System.out.println("File created");
-                    } else {
-                        System.out.println("Something went wrong. File creation failed");
-                    }
-                } catch (IOException e) {
-                    throw new RuntimeException(e);
-                }
-
+            case CREATE_FILE:
+                createFile(sourcePath + "\\" + fileName);
                 break;
         }
 
+    }
 
-        File fObj = new File("src\\lo_io");
+    private static void createFile(String path) {
+        File fObj = new File(path);
 
+        try {
+            if (fObj.createNewFile()) {
+                System.out.println("File created");
+            } else {
+                System.out.println("Something went wrong. File creation failed");
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
+    private static void createDirectory(String path) {
+        File fObj = new File(path);
+        if (fObj.mkdir()) {
+            System.out.println("Directory created");
+        } else {
+            System.out.println("Something went wrong. Directory creation failed");
+        }
     }
 
 }
