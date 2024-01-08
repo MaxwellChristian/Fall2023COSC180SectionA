@@ -9,6 +9,7 @@ package lo_io;
 * */
 
 import java.io.File;
+import java.util.Date;
 
 public class ListDirContents {
 
@@ -22,7 +23,33 @@ public class ListDirContents {
         if(dir.exists() && dir.isDirectory() ){
 
             for (File curFile: dir.listFiles()) {
-                System.out.println(curFile.getAbsolutePath());
+
+                // absolute path
+                System.out.print(curFile.getAbsolutePath());
+                System.out.print("-");
+
+                // is the file read only
+                if( ! curFile.canWrite() ){
+                    System.out.print("-");
+                    System.out.print("R");
+                    System.out.print("-");
+                }
+
+                // is the file a directory
+                if( curFile.isDirectory() ){
+                    System.out.print("-");
+                    System.out.print("D");
+                    System.out.print("-");
+                }
+
+                // last modified timestamp
+//                System.out.print(curFile.lastModified());
+
+                Date d = new Date(curFile.lastModified());
+                System.out.print(d);
+
+                System.out.println();
+
             }
 
         }
