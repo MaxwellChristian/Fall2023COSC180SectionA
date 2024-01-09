@@ -23,6 +23,7 @@ public class InputMismatchException {
                 num2 = inputLine.nextInt();
 
                 System.out.printf("%d + %d : %d\n", num1, num2, (num1+num2));
+                validInput = true;
 
             } catch (Exception ex) {
                 validInput = false;
@@ -30,7 +31,7 @@ public class InputMismatchException {
                 counter++;
             }
 
-        } while (!validInput || counter < 2 );
+        } while (!validInput && counter < 2 );
 
     }
 
