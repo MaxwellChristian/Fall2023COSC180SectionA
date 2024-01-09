@@ -23,6 +23,23 @@ public class FileStats {
         for (File curFile: fObj.listFiles()){
             if( curFile.isFile() ){
                 System.out.println("F: " + curFile.getName() + " : " + curFile.length());
+            } else {
+
+                if( curFile.isDirectory() ){
+                    int totalFiles = 0 ;
+                    int totalDirs = 0 ;
+                    for( File subContents: curFile.listFiles() ){
+                        if( subContents.isFile() ){
+                            totalFiles++;
+                        } else {
+                            if( subContents.isDirectory() ){
+                                totalDirs++;
+                            }
+                        }
+                    }
+
+                    System.out.println("D: " + curFile.getName() + " : " + "Files: " + totalFiles + " : Dirs: " + totalDirs );
+                }
             }
         }
 
