@@ -16,6 +16,7 @@ public class FileCopyDemo {
             int byteFromFile = fIn.read();
             while (byteFromFile != -1) {
                 fOut.write(byteFromFile);
+                byteFromFile = fIn.read();
             }
 
             // close the file
