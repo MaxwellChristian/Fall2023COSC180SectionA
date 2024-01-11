@@ -13,11 +13,15 @@ public class StudentInDemo {
             Student s1 = (Student) in.readObject();
             System.out.println(s1);
 
+            s1 = (Student) in.readObject();
+            System.out.println(s1);
+
+            s1 = (Student) in.readObject();
+            System.out.println(s1);
+
             in.close();
 
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (ClassNotFoundException e) {
+        } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
 
