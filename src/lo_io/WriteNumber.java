@@ -18,8 +18,7 @@ public class WriteNumber {
 
             // make sure that file is always having new numbers
             // i.e. erase the previous content
-
-            rafFile.seek(0);
+            rafFile.setLength(0);
 
 //            for (int counter = 1; counter <= 10; counter++) {
 //                rafFile.writeInt(new Random().nextInt(1000));
@@ -36,7 +35,7 @@ public class WriteNumber {
             System.out.println("First number: " + rafFile.readInt());
 
             // read and display the seventh number from the file
-            rafFile.seek(6 * 4);
+            rafFile.seek(6 * (Integer.SIZE) / 8);
             System.out.println("Seventh number: " + rafFile.readInt());
 
             // change the seventh number to 77
@@ -69,11 +68,19 @@ public class WriteNumber {
             System.out.println("Last number: " + rafFile.readInt());
 
             // display all values from the file
+            displayAllContents(rafFile);
 
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
+    }
+
+    private static void displayAllContents(RandomAccessFile rafFile) throws IOException {
+        rafFile.seek(0);
+        while (rafFile.getFilePointer() != rafFile.length()) {
+            System.out.println(rafFile.readInt());
+        }
     }
 
 }
