@@ -2,7 +2,8 @@ package lo_io;
 
 /*
  *
- * Write a program which can store 10 random int values to a file
+ * Write a program which can store random int values to a file.
+ * The random int values should be provided using command line.
  * */
 
 import java.io.IOException;
@@ -15,8 +16,17 @@ public class WriteNumber {
 
         try (RandomAccessFile rafFile = new RandomAccessFile("data_files/random_file", "rw")) {
 
-            for (int counter = 1; counter <= 10; counter++) {
-                rafFile.writeInt(new Random().nextInt(1000));
+            // make sure that file is always having new numbers
+            // i.e. erase the previous content
+
+            rafFile.seek(0);
+
+//            for (int counter = 1; counter <= 10; counter++) {
+//                rafFile.writeInt(new Random().nextInt(1000));
+//            }
+
+            for (String token : args) {
+                rafFile.writeInt(Integer.parseInt(token));
             }
 
             System.out.println("Length of the file: " + rafFile.length());
@@ -46,12 +56,19 @@ public class WriteNumber {
             System.out.println("Seventh number: " + rafFile.readInt());
 
             // append 99 to the file
-                // jump to the end of the file
-            rafFile.seek(10 * 4);
-                // append the required number
+            // jump to the end of the file
+            rafFile.seek(rafFile.length());
+            // append the required number
             rafFile.writeInt(99);
 
+            // display the new length of the file
+            System.out.println("[New] Length of the file: " + rafFile.length());
+
             // display the last number
+            rafFile.seek(rafFile.length() - 4);
+            System.out.println("Last number: " + rafFile.readInt());
+
+            // display all values from the file
 
         } catch (IOException e) {
             throw new RuntimeException(e);
