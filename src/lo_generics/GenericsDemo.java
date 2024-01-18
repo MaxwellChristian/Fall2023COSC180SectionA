@@ -15,13 +15,7 @@ public class GenericsDemo {
 
     }
 
-    private static void showTextValues(String[] sValues) {
-        System.out.println(Arrays.toString(sValues));
-    }
 
-    private static void showIntValues(Integer[] iValues) {
-        System.out.println(Arrays.toString(iValues));
-    }
 
 
 
