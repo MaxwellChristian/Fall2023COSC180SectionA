@@ -25,6 +25,10 @@ public class GenericsDemo {
 
         showValues(c);
 
+        // find largest of all the int values [using generic method]
+        // find largest of all the string values [using generic method]
+        // find largest of all the circle values [using generic method]
+
     }
 
     private static <E> void showValues(E []values) {
