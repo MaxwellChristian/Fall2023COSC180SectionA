@@ -9,6 +9,9 @@ public class GenericStackDemo {
         GenericStack<Integer> iStack = new GenericStack<>();
         GenericStack<String> sStack = new GenericStack<>();
 
+        System.out.println("Size: " + iStack.getSize());
+        System.out.println("Size: " + sStack.getSize());
+
         iStack.push(19);
 //         iStack.push("20"); // not allowed
 
@@ -19,6 +22,9 @@ public class GenericStackDemo {
 
         // sStack.push(new Date());    // not allowed
         sStack.push(new Date().toString());
+
+        System.out.println("Size: " + iStack.getSize());
+        System.out.println("Size: " + sStack.getSize());
 
     }
 
