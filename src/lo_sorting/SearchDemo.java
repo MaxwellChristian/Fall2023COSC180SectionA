@@ -1,0 +1,47 @@
+package lo_sorting;
+
+import java.util.Arrays;
+
+public class SearchDemo {
+
+    public static void main(String[] args) {
+
+        // the value to search is the first value in command line arguments
+        int valueToSearch = Integer.parseInt(args[0]);
+
+        // all remaining arguments are the list of values
+        int[] iValues = convert(args, 1, args.length);
+
+        // search for the value from the list
+        int foundAtPos = linearSearch(iValues, valueToSearch);
+
+        System.out.println(Arrays.toString(args));
+        System.out.printf( "%s\n", (foundAtPos!=-1) ? args[0] + " found at " + foundAtPos : "Value does not exist" );
+
+    }
+
+    private static int linearSearch(int[] iValues, int valueToSearch) {
+
+        int index = 0 ;
+        for (int value: iValues) {
+            if( value == valueToSearch ){
+                return index;
+            }
+            index++;
+        }
+
+        return -1;
+    }
+
+    private static int[] convert(String[] args, int startIndex, int endIndex) {
+        int[] arr = new int[args.length];
+
+        int destIndex = 0;
+        for ( int sourceIndex = startIndex ; sourceIndex < endIndex ;sourceIndex++ ) {
+            arr[destIndex++] = Integer.parseInt(args[sourceIndex]);
+        }
+
+        return arr;
+    }
+
+}
