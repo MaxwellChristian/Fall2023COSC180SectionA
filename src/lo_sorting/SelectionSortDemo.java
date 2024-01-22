@@ -2,6 +2,10 @@ package lo_sorting;
 
 import java.util.Arrays;
 
+/*
+* Create a recursive method for selection sort
+* */
+
 public class SelectionSortDemo {
 
     public static void main(String[] args) {
