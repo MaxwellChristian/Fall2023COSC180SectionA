@@ -12,8 +12,8 @@ public class SelectionSortDemo {
 
         int[] iValues = convert(args);
 
-//        selectionR(iValues, iValues.length, 0);
-        selectionSort(iValues);
+        selectionR(iValues, iValues.length, 0);
+//        selectionSort(iValues);
 
         System.out.println(Arrays.toString(iValues));
 
@@ -45,6 +45,35 @@ public class SelectionSortDemo {
 
         }
 
+    }
+
+    private static void selectionR(int[] iValues, int length, int startIndex) {
+        // Return when starting and size are same
+        if (startIndex == length)
+            return;
+
+        // calling minimum index function for minimum index
+        int minIndex = minIndex(iValues, startIndex, length - 1);
+
+        // Swapping when index and minimum index are not same
+        if (minIndex != startIndex) {
+            // swap
+            swap(iValues, minIndex, startIndex);
+        }
+
+        // Recursively calling selection sort function
+        selectionR(iValues, length, startIndex + 1);
+    }
+
+    private static int minIndex(int[] iValues, int startIndex, int endIndex) {
+        if (startIndex == endIndex)
+            return startIndex;
+
+        // Find minimum of remaining elements
+        int indexOfMin = minIndex(iValues, startIndex + 1, endIndex);
+
+        // Return minimum of current and remaining.
+        return (iValues[startIndex] < iValues[indexOfMin]) ? startIndex : indexOfMin;
     }
 
     private static void swap(int[] iValues, int index1, int index2) {
