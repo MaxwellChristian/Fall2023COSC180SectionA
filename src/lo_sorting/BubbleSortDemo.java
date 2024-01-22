@@ -2,45 +2,71 @@ package lo_sorting;
 
 import java.util.Arrays;
 
-/*
-* Bubble sort demo
-* Try to :
-*   1. display the total swaps performed in each pass
-*   2. put the sorting logic in a dedicated method
-*   3. perform the swap using a method
-* */
-
 public class BubbleSortDemo {
 
-    public static void main(String []args) {
+    public static void main(String[] args) {
 
-        int []values = {9, 18, 2, 5, 4};
+        int[] iValues = convert(args);
 
-        System.out.println("Before sorting : " + Arrays.toString(values));
+        // bubbleSort(iValues);
+        bubbleSortR(iValues, iValues.length);
 
-        // sorting
-        for( int i = 0 ; i < values.length ; i++ ){
+        System.out.println(Arrays.toString(iValues));
 
-            // compare each adjacent value
-            for( int j = 0 ; j < values.length - 1 - i ; j++ ){
+    }
 
-                // check adjacent values
-                if( values[j] > values[j+1] ){
-                    // swap the values
-                    int temp;
-                    temp = values[j];
-                    values[j] = values[j+1];
-                    values[j+1] = temp;
-                }
-
-            }
-
-            System.out.printf("Pass %d: %s\n", i, Arrays.toString(values));
-
+    private static void bubbleSortR(int[] iValues, int length) {
+        if (length == 1) {
+            return;
         }
 
-        System.out.println("After sorting  : " + Arrays.toString(values));
+        int count = 0;
+        // One pass of bubble sort. After
+        // this pass, the largest element
+        // is moved (or bubbled) to end.
+        for (int i = 0; i < iValues.length - 1; i++)
+            if (iValues[i] > iValues[i + 1]) {
+                // swap arr[i], arr[i+1]
+                swap(iValues, i, i + 1);
 
+                count = count + 1;
+            }
+
+        // Check if any recursion happens or not
+        // If any recursion is not happen then return
+        if (count == 0)
+            return;
+
+        // Largest element is fixed,
+        // recur for remaining array
+        bubbleSortR(iValues, iValues.length - 1);
+    }
+
+    private static void bubbleSort(int[] iValues) {
+        for (int i = 0; i < iValues.length; i++) {
+            for (int j = 0; j < iValues.length - i - 1; j++) {
+                if (iValues[j] > iValues[j + 1]) {
+                    swap(iValues, j, j + 1);
+                }
+            }
+        }
+    }
+
+    private static void swap(int[] iValues, int index1, int index2) {
+        iValues[index1] = iValues[index1] + iValues[index2];
+        iValues[index2] = iValues[index1] - iValues[index2];
+        iValues[index1] = iValues[index1] - iValues[index2];
+    }
+
+    private static int[] convert(String[] args) {
+        int[] arr = new int[args.length];
+
+        int index = 0;
+        for (String token : args) {
+            arr[index++] = Integer.parseInt(token);
+        }
+
+        return arr;
     }
 
 }
