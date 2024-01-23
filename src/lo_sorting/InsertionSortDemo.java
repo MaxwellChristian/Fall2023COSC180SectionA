@@ -2,7 +2,7 @@ package lo_sorting;
 
 import java.util.Arrays;
 
-public class MergeSortDemo {
+public class InsertionSortDemo {
 
     public static void main(String []args) {
 
@@ -10,7 +10,8 @@ public class MergeSortDemo {
 
         System.out.println("Unsorted : " + Arrays.toString(values));
 
-        SortingMethods.mergeSort(values);
+        // SortingMethods.insertionSort(values);
+        SortingMethods.insertionSortR(values, values.length);
 
         System.out.println("Sorted   : " + Arrays.toString(values));
 
