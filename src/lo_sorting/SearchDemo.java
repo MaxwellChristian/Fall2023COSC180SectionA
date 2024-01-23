@@ -17,11 +17,34 @@ public class SearchDemo {
 
         Arrays.sort(iValues);
         System.out.println(Arrays.toString(iValues));
-        int foundAtPos = binarySearch(iValues, valueToSearch);
+//        int foundAtPos = binarySearch(iValues, valueToSearch);
+        int foundAtPos = binarySearchR(valueToSearch, iValues, 0, iValues.length);
 
         System.out.println(Arrays.toString(iValues));
         System.out.printf("%s\n", (foundAtPos != -1) ? args[0] + " found at " + foundAtPos : "Value does not exist");
 
+    }
+
+    private static int binarySearchR(int valueToSearch, int[] iValues, int left, int right) {
+
+        // base case
+        if( right >= left ){
+
+            int mid = left + (right - left) / 2;
+
+            if( iValues[mid] == valueToSearch ){
+                return mid;
+            }
+
+            if( valueToSearch < iValues[mid] ){
+                return binarySearchR(valueToSearch, iValues, left, mid-1);
+            } else {
+                return binarySearchR(valueToSearch, iValues, mid+1, right);
+            }
+
+        }
+
+        return -1;
     }
 
     private static int binarySearch(int[] values, int valueToSearch) {
