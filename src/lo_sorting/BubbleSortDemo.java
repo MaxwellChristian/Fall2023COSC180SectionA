@@ -8,8 +8,9 @@ public class BubbleSortDemo {
 
         int[] iValues = convert(args);
 
-        // bubbleSort(iValues);
-        bubbleSortR(iValues, iValues.length);
+        // bubbleSort(iValues); // the iterative method
+
+        bubbleSortR(iValues, iValues.length);   // the recursive method
 
         System.out.println(Arrays.toString(iValues));
 
