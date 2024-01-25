@@ -41,4 +41,20 @@ public class MyList {
             return current + " : " + nodeToString(current.getNext());
         }
     }
+
+    public int dequeue(){
+        // removes and returns the node at head of the list
+
+        return 0;
+    }
+
+    public boolean search(int dataToSearch) {
+        // return the status of the value to search from the list
+
+        return false;
+    }
+
+    public void remove(int dataToRemove) {
+        // remove the node which contains the data to remove
+    }
 }
