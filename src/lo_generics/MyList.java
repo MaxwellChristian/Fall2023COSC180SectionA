@@ -42,10 +42,18 @@ public class MyList {
         }
     }
 
-    public int dequeue(){
+    public Node dequeue(){
         // removes and returns the node at head of the list
 
-        return 0;
+        if( head == null ){
+            return null;
+        } else {
+            Node forReturn = head;
+            head = head.getNext();
+
+            return forReturn;
+        }
+
     }
 
     public boolean search(int dataToSearch) {
@@ -56,5 +64,31 @@ public class MyList {
 
     public void remove(int dataToRemove) {
         // remove the node which contains the data to remove
+
+        // if the list is empty
+        if( head == null ){
+            return;
+        }
+
+        this.head = remove(this.head, dataToRemove);
+
+    }
+
+    private Node remove(Node current, int dataToRemove) {
+
+        // base case 1
+        if( current == null ){
+            return null;
+        }
+
+        // base case 2
+        if( current.getData() == dataToRemove ){
+            return current.getNext();
+        }
+
+        // recursive case
+        current.setNext(remove(current.getNext(), dataToRemove));
+
+        return current;
     }
 }
