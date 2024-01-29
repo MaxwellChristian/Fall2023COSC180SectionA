@@ -73,6 +73,13 @@ public class StreamDemo {
                 .findFirst()
                 .get()
         );
+
+        // write a method which takes returns all words in lower case
+        System.out.println("All words [in lower case]: " + Arrays.toString(toLowerCase(words)));
+    }
+
+    private static String[] toLowerCase(String[] words) {
+        return Arrays.stream(words).map(String::toLowerCase).toArray(String[]::new);
     }
 
 }
