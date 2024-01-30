@@ -18,7 +18,15 @@ public class StreamDemo3 {
         System.out.println("Values [mul]: " + Arrays.stream(values).reduce(1, (left, right) -> left * right));
 
         // display as CSV
-        Arrays.stream(values).forEach(value -> System.out.print(value + ", "));
+
+        // the following displays an extra comma at the end
+        // Arrays.stream(values).forEach(value -> System.out.print(value + ", "));
+        System.out.println(
+                Arrays.stream(values)
+                        .mapToObj(String::valueOf)
+                        .reduce((left, right) -> left + ", " + right)
+                        .get()
+        );
     }
 
 }
