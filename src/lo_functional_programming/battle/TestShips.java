@@ -13,10 +13,22 @@ public class TestShips {
 //        List<BattleShip> alShips = Utils.genListLoad("data_files/Battleships.csv", csvLine -> new BattleShip(Utils.parseCVLine(csvLine)));
         List<BattleShip> alShips = Utils.genListLoad("data_files/Battleships.csv", funcBattleShip);
 
-        // count of all battle ships
+        // count of all battleships
+        System.out.printf("Total ships : %d\n", alShips.size());
 
-        // count of battle ships of a particular type
+        // count of battleships of a particular type
+        System.out.printf("Total 'Fast Battleship' ships : %d\n",
+                alShips.stream()
+                        .filter(battleShip -> battleShip.getShipType().equals("fast battleship"))
+                        .count()
+        );
 
+        // count the number of ships that have a displacement greater than 4000 tons
+
+
+        // count the number of Ships in the Royal Navy
+
+        // display all ships from royal navy [sorted]
 
 
     }
