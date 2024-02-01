@@ -1,5 +1,7 @@
 package lo_functional_programming.battle;
 
+import java.util.Comparator;
+
 class ShipConstants {
     public static int NAME = 0;
     public static int OPERATING_NAVY = 1;
@@ -9,7 +11,7 @@ class ShipConstants {
     public static int END_OF_SERVICE = 5;
 }
 
-public class BattleShip {
+public class BattleShip implements Comparator<BattleShip>, Comparable<BattleShip> {
     private final String name;
     private final String operatingNavy;
     private final String shipType;
@@ -59,15 +61,32 @@ public class BattleShip {
         return endOfService;
     }
 
+//    @Override
+//    public String toString() {
+//        return String.format("Ship: %-20s " +
+//                        "Navy:%-20s " +
+//                        "Type: %-30s " +
+//                        "Displacement: %-10d " +
+//                        "Build Year: %-5d  " +
+//                        "End of Service: %-5d",
+//                name, operatingNavy, shipType, displacement, buildYear, endOfService);
+//    }
+
     @Override
     public String toString() {
-        return String.format("Ship: %-20s " +
-                        "Navy:%-20s " +
-                        "Type: %-30s " +
-                        "Displacement: %-10d " +
-                        "Build Year: %-5d  " +
-                        "End of Service: %-5d",
+        return String.format("%s|%s|%s|%d|%d|%d",
                 name, operatingNavy, shipType, displacement, buildYear, endOfService);
     }
 
+    @Override
+    public int compare(BattleShip o1, BattleShip o2) {
+        // compare the ships as per their name and displacement
+        return (o1.getName() + o1.getDisplacement()).compareTo(o2.getName() + o2.getDisplacement());
+    }
+
+    @Override
+    public int compareTo(BattleShip o) {
+        // compare the ships as per their name and displacement
+        return (this.getName() + this.getDisplacement()).compareTo(o.getName() + o.getDisplacement());
+    }
 }
