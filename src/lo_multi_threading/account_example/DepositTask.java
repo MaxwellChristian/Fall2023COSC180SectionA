@@ -12,10 +12,12 @@ public class DepositTask implements Runnable {
 
     @Override
     public void run() {
-        accountToDepositTo.deposit(amountToDeposit);
+//        accountToDepositTo.deposit(amountToDeposit);
 
-        synchronized (this){
-            accountToDepositTo.depositV2(amountToDeposit);
-        }
+//        synchronized (accountToDepositTo){
+//            accountToDepositTo.depositV2(amountToDeposit);
+//        }
+
+        accountToDepositTo.depositV3(amountToDeposit);
     }
 }

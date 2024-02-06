@@ -43,19 +43,18 @@ public class Account {
 
     public void depositV3(double amount) {
 
-        double newBalance = this.balance + amount;
-
         // an intentional delay to demonstrate the problem
         // [when used in un-synchronized way]
         try {
             Thread.sleep(5);
 
             lock.lock();
-            this.balance = newBalance;
-            lock.unlock();
+            this.balance = this.balance + amount;
 
         } catch (InterruptedException exception) {
             System.out.println("Deposit interrupted");
+        } finally {
+            lock.unlock();
         }
     }
 }
