@@ -13,5 +13,9 @@ public class DepositTask implements Runnable {
     @Override
     public void run() {
         accountToDepositTo.deposit(amountToDeposit);
+
+        synchronized (this){
+            accountToDepositTo.depositV2(amountToDeposit);
+        }
     }
 }
