@@ -13,12 +13,12 @@ public class SignalWaitDemo {
 
     private static Account account = new Account();
 
-    public static void main(String ... args) {
+    public static void main(String... args) {
 
         ExecutorService executorService = Executors.newFixedThreadPool(2);
 
-        executorService.execute(new DepositTask(account));
-        executorService.execute(new WithdrawTask(account));
+        executorService.execute(new DepositTask());
+        executorService.execute(new WithdrawTask());
 
         executorService.shutdown();
 
@@ -36,9 +36,12 @@ public class SignalWaitDemo {
             return balance;
         }
 
-        public void withdraw(int amount){
+        public void withdraw(int amount) {
             lock.lock();
             try {
+
+                System.out.println("To Withdraw: " + amount);
+
                 while (balance < amount) {
                     System.out.println("Wait for deposit");
                     newDeposit.await();
@@ -46,14 +49,14 @@ public class SignalWaitDemo {
 
                 balance -= amount;
                 System.out.println("Withdraw: " + amount + ", Balance: " + getBalance());
-            } catch (InterruptedException exception){
+            } catch (InterruptedException exception) {
                 System.out.println(exception.getMessage());
             } finally {
                 lock.unlock();
             }
         }
 
-        public synchronized void deposit(double amount) {
+        public void deposit(double amount) {
 
             lock.lock();
 
@@ -70,13 +73,25 @@ public class SignalWaitDemo {
     }
 
     private static class WithdrawTask implements Runnable {
-        public WithdrawTask(Account account) {
-        }
 
         @Override
         public void run() {
-            while (true){
-                account.withdraw((int)(Math.random()*10)+1);
+            while (true) {
+                account.withdraw((int) (Math.random() * 10) + 1);
+            }
+        }
+    }
+
+    private static class DepositTask implements Runnable {
+        @Override
+        public void run() {
+            try {
+                while (true) {
+                    account.deposit((int) (Math.random() * 10) + 1);
+                    Thread.sleep(1000);
+                }
+            } catch (InterruptedException e) {
+                System.out.println(e.getMessage());
             }
         }
     }
