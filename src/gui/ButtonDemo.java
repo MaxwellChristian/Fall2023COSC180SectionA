@@ -6,12 +6,11 @@ import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.Label;
+import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
@@ -51,27 +50,52 @@ public class ButtonDemo extends Application {
         EventHandler<ActionEvent> actionHandler = actionEvent -> {
             if( cbBold.isSelected() && cbItalics.isSelected() ){
                 // set font to both bold and italics
+                setFontStyle(lblMessage, FontWeight.BOLD, FontPosture.ITALIC);
             }
             else {
                 if( cbBold.isSelected() ){
                     // set the font to bold
+                    setFontStyle(lblMessage, FontWeight.BOLD, FontPosture.REGULAR);
                 }
                 else {
                     if ( cbItalics.isSelected() ){
                         // set the font to italics
+                        setFontStyle(lblMessage, FontWeight.NORMAL, FontPosture.ITALIC);
                     }
                     else {
                         // set the font to normal
+                        setFontStyle(lblMessage, FontWeight.NORMAL, FontPosture.REGULAR);
                     }
                 }
             }
         };
         cbBold.setOnAction(actionHandler);
+        cbItalics.setOnAction(actionHandler);
+
+        // Color selection
+        RadioButton rdRed = new RadioButton("Red");
+        RadioButton rdGreen = new RadioButton("Green");
+        RadioButton rdBlue = new RadioButton("Blue");
+        VBox colorBox = new VBox(20);
+        colorBox.getChildren().addAll(rdRed, rdGreen, rdBlue);
+
+        // color group
+        ToggleGroup colorGroup = new ToggleGroup();
+        // set the group to the radio button
+        rdRed.setToggleGroup(colorGroup);
+        rdGreen.setToggleGroup(colorGroup);
+        rdBlue.setToggleGroup(colorGroup);
+
+        rdRed.setOnAction(actionEvent -> lblMessage.setTextFill(Color.RED));
+        rdGreen.setOnAction(actionEvent -> lblMessage.setTextFill(Color.GREEN));
+        rdBlue.setOnAction(actionEvent -> lblMessage.setTextFill(Color.BLUE));
+
 
         BorderPane pane = new BorderPane();
         pane.setBottom(buttonBox);
         pane.setCenter(lblMessage);
         pane.setRight(boxForFonts);
+        pane.setLeft(colorBox);
 
         // scene
         Scene scene =new Scene(pane, 450, 200);
@@ -87,8 +111,8 @@ public class ButtonDemo extends Application {
 
     }
 
-    private void setFontStyle(Label lblMessage, FontWeight fontWeight) {
-        Font fontToUse = Font.font(lblMessage.getFont().getName(), fontWeight, lblMessage.getFont().getSize());
+    private void setFontStyle(Label lblMessage, FontWeight fontWeight, FontPosture fontPosture) {
+        Font fontToUse = Font.font(lblMessage.getFont().getName(), fontWeight, fontPosture, lblMessage.getFont().getSize());
         lblMessage.setFont(fontToUse);
     }
 
