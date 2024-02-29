@@ -4,6 +4,8 @@ import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
@@ -34,13 +36,30 @@ public class TextControlsDemo extends Application {
         // add the appropriate event handling
         tfMessage.setOnAction(actionEvent -> lblMessage.setText(tfMessage.getText()));
 
+        // text area
+        TextArea taDiceDescription = new TextArea();
+        taDiceDescription.setPrefColumnCount(20);
+        taDiceDescription.setPrefRowCount(10);
+        taDiceDescription.setWrapText(true);
+        taDiceDescription.setText("The description for Dice 5");
+
+        ScrollPane scrollPane = new ScrollPane(taDiceDescription);
+
+//        ImageView ivDice = new ImageView(new Image("file:images/dice/dice_5.png"));
+//
+//        VBox vBox = new VBox(20);
+//        vBox.getChildren().addAll(ivDice, taDiceDescription);
+
+
         // add to the appropriate pane
         BorderPane pane = new BorderPane();
         pane.setTop(hBox);
         pane.setBottom(lblMessage);
+//        pane.setRight(vBox);
+        pane.setRight(scrollPane);
 
         // create the scene
-        Scene scene = new Scene(pane, 400, 100);
+        Scene scene = new Scene(pane, 800, 400);
 
         // add the scene to the stage
         stage.setScene(scene);
