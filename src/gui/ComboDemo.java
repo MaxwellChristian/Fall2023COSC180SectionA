@@ -30,12 +30,20 @@ public class ComboDemo extends Application {
         ComboBox<String> comboBox = new ComboBox<>();
         comboBox.getItems().addAll(diceNames);
 
+        // comboBox.setPromptText("Select a dice");
+
+        comboBox.setValue(diceNames[1]);
+        displayItem(1);
+
+        comboBox.setOnAction(actionEvent -> displayItem(comboBox.getSelectionModel().getSelectedIndex()));
+        comboBox.getSelectionModel().select(1);
+
         BorderPane borderPane = new BorderPane();
         borderPane.setLeft(new Label("Select a dice: "));
         borderPane.setTop(comboBox);
         borderPane.setCenter(imgDice);
 
-        displayItem(0);
+//        displayItem(0);
 
         Scene scene = new Scene( borderPane, 400, 200);
 
