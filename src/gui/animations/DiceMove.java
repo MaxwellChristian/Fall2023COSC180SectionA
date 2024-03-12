@@ -1,6 +1,7 @@
 package gui.animations;
 
 import javafx.animation.PathTransition;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.image.ImageView;
@@ -21,7 +22,7 @@ public class DiceMove extends Application {
         PathTransition pathTransition = new PathTransition(Duration.millis(10000),
                 new Line(100, 200, 100, 0),
                 imageView);
-        pathTransition.setCycleCount(5);
+        pathTransition.setCycleCount(Timeline.INDEFINITE);
         pathTransition.play();
 
         Scene scene = new Scene(pane, 250, 200);
@@ -29,9 +30,10 @@ public class DiceMove extends Application {
         primaryStage.setScene(scene);
 
         scene.setOnMouseClicked(mouseEvent -> {
+
             switch (mouseEvent.getButton()) {
-                case PRIMARY -> pathTransition.setDuration(Duration.millis(pathTransition.getDuration().toMillis()-1000));
-                case SECONDARY -> pathTransition.setDuration(Duration.millis(pathTransition.getDuration().toMillis()+1000));
+                case PRIMARY -> pathTransition.setRate(pathTransition.getRate()+0.5);
+                case SECONDARY -> pathTransition.setRate(pathTransition.getRate() > 0 ? pathTransition.getRate()-0.5 : 0);
             }
         });
 
