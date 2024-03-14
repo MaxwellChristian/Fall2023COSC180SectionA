@@ -13,30 +13,36 @@ public class ServerDemo {
 
         try {
             // the port number is where the server provides a service
-            ServerSocket serverSocket = new ServerSocket(9000);
-            System.out.println("Server started. Serving at port 9000");
+            ServerSocket serverSocket = new ServerSocket(Integer.parseInt(args[0]));
+            System.out.println("Server started. Serving at port " + Integer.parseInt(args[0]));
 
-            System.out.println("Waiting for client to connect");
+            while (true){
+                System.out.println("Waiting for client to connect");
 
-            // wait for a client co connect
-            Socket connectedClient = serverSocket.accept();
-            System.out.println("Client connected");
+                // wait for a client co connect
+                Socket connectedClient = serverSocket.accept();
+                System.out.println("Client connected: "
+                        + connectedClient.getInetAddress().toString()
+                        + "/"
+                        + connectedClient.getPort() );
 
-            // fetch/read the message from the client
-            DataInputStream inputStreamFromClient = new DataInputStream(connectedClient.getInputStream());
-            String messageFromClient = inputStreamFromClient.readUTF();
-            System.out.println("Client says: " + messageFromClient);
+                // fetch/read the message from the client
+                DataInputStream inputStreamFromClient = new DataInputStream(connectedClient.getInputStream());
+                String messageFromClient = inputStreamFromClient.readUTF();
+                System.out.println("Client says: " + messageFromClient);
 
-            // send the current timestamp to the connected client
-            String timeStamp = new Date().toString();
-            DataOutputStream outputStreamToClient = new DataOutputStream(connectedClient.getOutputStream());
-            outputStreamToClient.writeUTF(timeStamp);
+                // send the current timestamp to the connected client
+                String timeStamp = new Date().toString();
+                DataOutputStream outputStreamToClient = new DataOutputStream(connectedClient.getOutputStream());
+                outputStreamToClient.writeUTF(timeStamp);
 
-            // terminating the connection with the client
-            connectedClient.close();
+                // terminating the connection with the client
+                connectedClient.close();
+
+            } // while loop ends
 
             // shutdown the server/service
-            serverSocket.close();
+//            serverSocket.close();
 
         } catch (IOException e) {
             throw new RuntimeException(e);

@@ -12,7 +12,7 @@ public class ClientDemo {
         try {
 //            Socket connectionToServer = new Socket("www.someserver.com", 9000);
 //            Socket connectionToServer = new Socket("127.0.0.1", 9000);
-            Socket connectionToServer = new Socket("localhost", 9000);
+            Socket connectionToServer = new Socket("localhost", Integer.parseInt(args[0]));
             System.out.println("Connected to server");
 
             // send a "HELLO" to the server
