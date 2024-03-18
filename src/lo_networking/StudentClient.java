@@ -11,11 +11,11 @@ public class StudentClient {
         try {
             // collect the data for the student [using an object]
             Student s1 = new Student();
-            s1.setFirstName("");
-            s1.setLastName("");
-            s1.setCity("");
-            s1.setProvince("");
-            s1.setPostalCode("");
+            s1.setFirstName("Maxwell");
+            s1.setLastName("Christian");
+            s1.setCity("Regina");
+            s1.setProvince("SK");
+            s1.setPostalCode("XDX XDX");
 
             // connect to the server
             Socket connectedServer = new Socket(args[0], Integer.parseInt(args[1]));

@@ -1,7 +1,6 @@
 package lo_networking;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -18,23 +17,45 @@ public class StudentServer {
         try {
             // start the service
             ServerSocket serverSocket = new ServerSocket(Integer.parseInt(args[0]));
+            System.out.println("Server started. Providing service at " + Integer.parseInt(args[0]));
 
-            // wait for a client to connect
-            Socket connectedClient = serverSocket.accept();
+            while (true) {
+                // wait for a client to connect
+                Socket connectedClient = serverSocket.accept();
+                System.out.println("Client connected: "
+                        + connectedClient.getInetAddress()
+                        + "/"
+                        + connectedClient.getPort());
 
-            // fetch the data [using object]
-            ObjectInputStream inputStreamFromClient =
-                    new ObjectInputStream(connectedClient.getInputStream());
-            Student receivedStudent = (Student) inputStreamFromClient.readObject();
+                // fetch the data [using object]
+                ObjectInputStream inputStreamFromClient =
+                        new ObjectInputStream(connectedClient.getInputStream());
+                Student receivedStudent = (Student) inputStreamFromClient.readObject();
+                System.out.println("Student received: " + receivedStudent);
 
-            // work with the data
-            System.out.println(receivedStudent);
+                // work with the data
+                // System.out.println(receivedStudent);
+                // store the student object to a file
+                System.out.println("Attempt to save to file: Started");
+                saveToFile(receivedStudent);
+                System.out.println("Attempt to save to file: Completed [Success]");
+
+            }
+
 
         } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
 
+    }
 
+    private static void saveToFile(Student studentToSave) throws IOException {
+        ObjectOutputStream outputStream =
+                new ObjectOutputStream(
+                        new FileOutputStream("data_files/student.txt", true));
+
+        outputStream.writeObject(studentToSave);
+        outputStream.close();
     }
 
 }
