@@ -5,7 +5,6 @@ package lo_inheritance;
 // protected: can be accessed only inside the class and subclasses
 
 import java.util.Comparator;
-import java.util.Objects;
 
 public class Rectangle extends Shape implements Comparable<Rectangle>, Comparator<Rectangle> {
 

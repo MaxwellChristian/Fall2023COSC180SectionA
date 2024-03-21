@@ -1,7 +1,8 @@
 package lo_functional_programming.apple_example;
 
-import java.util.*;
-import java.util.function.Predicate;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class FilteringApples{
 

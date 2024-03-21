@@ -1,7 +1,5 @@
 package lo_methods;
 
-import java.util.Stack;
-
 public class MethodIntro {
 
     // this is a method named 'main'

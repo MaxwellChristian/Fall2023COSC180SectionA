@@ -7,9 +7,7 @@ package lo_arrays;
 
 // Keep a track that user should not enter more than 20 numbers
 
-import java.util.Random;
 import java.util.Scanner;
-import java.util.stream.StreamSupport;
 
 public class DisplayAllEvenNumbers {
 

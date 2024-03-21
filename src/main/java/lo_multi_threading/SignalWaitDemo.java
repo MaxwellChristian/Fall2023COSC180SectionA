@@ -1,8 +1,5 @@
 package lo_multi_threading;
 
-import lo_multi_threading.account_example.Account;
-import lo_multi_threading.account_example.DepositTask;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.locks.Condition;

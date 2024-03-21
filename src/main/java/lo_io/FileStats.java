@@ -8,8 +8,7 @@ package lo_io;
 * the input is to be taken as command line argument
 * */
 
-import java.io.*;
-import java.util.Arrays;
+import java.io.File;
 
 public class FileStats {
 

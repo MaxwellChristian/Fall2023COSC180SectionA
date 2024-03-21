@@ -4,7 +4,6 @@ package lo_io;
 * Write a program to save 10 numbers to a file using file stream
 * */
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 

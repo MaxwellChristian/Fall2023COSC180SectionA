@@ -1,7 +1,6 @@
 package lo_inheritance;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class VehicleDemo {
 

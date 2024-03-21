@@ -2,9 +2,6 @@ package lo_generics;
 
 import lo_inheritance.Circle;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class GenericsDemo {
 
     public static void main(String []args) {

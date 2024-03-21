@@ -1,7 +1,5 @@
 package lo_inheritance.monsters;
 
-import java.util.Objects;
-
 public abstract class Monster
 {
     private int scareFactor, fast;

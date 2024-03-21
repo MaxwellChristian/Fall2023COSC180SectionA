@@ -15,7 +15,6 @@ the user to enter a two-dimensional array and displays the location of the large
 element in the array.
  */
 
-import java.util.Calendar;
 import java.util.Scanner;
 
 public class LocationTest {
