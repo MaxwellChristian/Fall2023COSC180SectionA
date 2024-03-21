@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Fall2023COSC180SectionA:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Fall2023COSC180SectionA_jar</output-path>
+    <root id="archive" name="Fall2023COSC180SectionA.jar">
+      <element id="module-output" name="Fall2023COSC180SectionA" />
+    </root>
+  </artifact>
+</component>

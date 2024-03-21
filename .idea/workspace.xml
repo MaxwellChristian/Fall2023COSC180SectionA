@@ -1,11 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Fall2023COSC180SectionA:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08a2b9c9-bd09-4643-b4fe-a8a29bd92724" name="Changes" comment="Maxwell Christian">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Fall2023COSC180SectionA_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Students.accdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_files/Students.accdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/ArrayExplanation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/VehicleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/Greek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_jdbc/SimpleJDBCDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fall2023COSC180SectionA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fall2023COSC180SectionA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Arrays_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Arrays_Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Arrays_Methods_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Arrays_Methods_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Arrays_Methods_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Arrays_Methods_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Loops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/MyDemoMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/MyDemoMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception_handling/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception_handling/Demo2WithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/Demo2WithMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception_handling/Demo3WithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/Demo3WithMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception_handling/DemoMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/DemoMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception_handling/InputMismatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/InputMismatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception_handling/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/MyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/BorderPaneDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/BorderPaneDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ButtonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ButtonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ComboDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ComboDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/GridDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/GridDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/HBoxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/HBoxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/LabelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/LabelDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ScrollBarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ScrollBarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ShowEllipses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ShowEllipses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/TextControlsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/TextControlsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/TextDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/TextDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/animations/DiceMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/animations/DiceMove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/animations/FadeShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/animations/FadeShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/animations/PathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/animations/PathDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/clock_demo/ClockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/clock_demo/ClockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/clock_demo/ClockPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/clock_demo/ClockPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/student_demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/student_demo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/student_demo/StudentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/student_demo/StudentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/student_demo/StudentServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/student_demo/StudentServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/tic_tac_toe/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/tic_tac_toe/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/tic_tac_toe/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/tic_tac_toe/TicTacToeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/ArrayIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/ArrayIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/CombineArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/CombineArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/CombineArrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/CombineArrays2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/CombineArrays3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/CombineArrays3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/DisplayAllEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/DisplayAllEvenNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/TernaryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/TernaryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/TextStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/TextStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/VowelsAndConsonants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/VowelsAndConsonants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/arrays_2d/AttendanceDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/arrays_2d/AttendanceDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/arrays_2d/AttendanceDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/arrays_2d/AttendanceDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_arrays/arrays_2d/AttendanceDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/arrays_2d/AttendanceDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/LargerOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/LargerOfTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/PositiveNegativeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/PositiveNegativeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/PositiveNegativeCheck2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/PositiveNegativeCheck2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/PrecedenceAndAssociativityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/PrecedenceAndAssociativityDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/ShowWeekDayName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/ShowWeekDayName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/CalculateAreaOfCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/CalculateAreaOfCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/CharacterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/CharacterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/CircleCircumference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/CircleCircumference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/CircleCircumference2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/CircleCircumference2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/DemoPrintF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/DemoPrintF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/IncrementDecrementOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/IncrementDecrementOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/OperatorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/OperatorsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/ShowName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/ShowName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/CSTStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/CSTStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/StreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/StreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/StreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/AppleColorPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/AppleColorPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/ApplePredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/ApplePredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/AppleRedAndHeavyPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/AppleRedAndHeavyPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/AppleWeightPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/AppleWeightPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/FilteringApples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/FilteringApples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/battle/BattleShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/BattleShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/battle/TestShips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/TestShips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/battle/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_generics/GenericMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/GenericMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_generics/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/GenericStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_generics/GenericStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/GenericStackDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_generics/GenericsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/GenericsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_generics/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_generics/MyListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/MyListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_generics/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Ambulance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Ambulance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/EmergencyVehicles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/EmergencyVehicles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/ShapeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/ShapeDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/ShapeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/EvilEye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/EvilEye.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/Greek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/Lucky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/Lucky.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/MonsterList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/MonsterList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/UnDead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/UnDead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/MultiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/MultiDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/DataInputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/DataInputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/DataOutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/DataOutputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/FetchFromURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FetchFromURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/FileCopyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileCopyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/FileCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileCreationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/FileInputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileInputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/FileOutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileOutputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/FileStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/ListDirContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/ListDirContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/ObjectInputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/ObjectInputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/ObjectOutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/ObjectOutputStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/ReadDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/ReadDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/StudentInDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/StudentInDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/StudentOutDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/StudentOutDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/WriteNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/WriteNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/WriteToFileDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/WriteToFileDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_io/WriteToFileDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/WriteToFileDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_loops/CountDigitsInNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/CountDigitsInNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_loops/DemoOfDoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/DemoOfDoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_loops/DemoOfFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/DemoOfFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_loops/DemoOfWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/DemoOfWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_loops/KgToPounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/KgToPounds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_loops/MultiplesOf5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/MultiplesOf5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_loops/OccurrenceOfChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/OccurrenceOfChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_loops/ReplaceCharInText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/ReplaceCharInText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_loops/TuitionTrend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/TuitionTrend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_math_string_fns/MathFnsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_math_string_fns/MathFnsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_math_string_fns/StringFnsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_math_string_fns/StringFnsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/DaysMonths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/DaysMonths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/DigitMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/DigitMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/DisplayFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/DisplayFactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/MethodIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/MethodIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/MethodsAndArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/MethodsAndArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/PrimeCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/PrimeCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/PrimeCharacter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/PrimeCharacter2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/PrimeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/ReverseWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/ShowBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/ShowBits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_methods/StringTokenizerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/StringTokenizerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThread2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThreadDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThreadDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/SignalWaitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/SignalWaitDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/TaskAndThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/TaskAndThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/account_example/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/account_example/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/account_example/AccountTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/account_example/AccountTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/account_example/DepositTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/account_example/DepositTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/Buffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/ConsumerProducerUsingBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/ConsumerProducerUsingBlockingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/ConsumerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/ConsumerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/ProducerConsumerDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/ProducerConsumerDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/ProducerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/ProducerTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_networking/AreaOfCircle_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/AreaOfCircle_Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_networking/AreaOfCircle_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/AreaOfCircle_Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_networking/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/ClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_networking/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/ServerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_networking/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_networking/StudentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/StudentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_networking/StudentServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/StudentServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/Biometrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Biometrics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/CircleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/ContactNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/ContactNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/DOB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/DOB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/FanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/FanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/LocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/LocationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/PersonName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/PersonName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/StudentDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/StudentDemo_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/StudentDemo_v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/Student_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Student_V2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/TVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/TVTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_oop/WrapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/WrapperDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Series1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Series1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Sum1ToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Sum1ToN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_recursion/VowelCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/VowelCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_sorting/BubbleSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/BubbleSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_sorting/InsertionSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/InsertionSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_sorting/MergeSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/MergeSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_sorting/SearchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/SearchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_sorting/SelectionSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/SelectionSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lo_sorting/SortingMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/SortingMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +238,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -22,12 +248,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MaxwellChristian"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaxwellChristian&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -45,60 +271,421 @@
   <component name="ProjectId" id="2V1lBFUWpbyGxG6reg16hlOFEOm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AccountTest1.executor": "Run",
+    "Application.BubbleSortDemo.executor": "Run",
+    "Application.ButtonDemo.executor": "Run",
+    "Application.ClientDemo.executor": "Run",
+    "Application.ConsumerProducerUsingBlockingQueue.executor": "Run",
+    "Application.CustomThreadDemo.executor": "Run",
+    "Application.CustomThreadDemo2.executor": "Run",
+    "Application.CustomThreadDemo3.executor": "Run",
+    "Application.DataInputStreamDemo.executor": "Run",
+    "Application.DataOutputStreamDemo.executor": "Run",
+    "Application.Demo1.executor": "Run",
+    "Application.Demo2WithMethods.executor": "Run",
+    "Application.Demo3WithMethods.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FetchFromURL.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FileCopyDemo.executor": "Run",
+    "Application.FileCreationDemo.executor": "Run",
+    "Application.FileDemo.executor": "Run",
+    "Application.FileInputStreamDemo.executor": "Run",
+    "Application.FileOutputStreamDemo.executor": "Run",
+    "Application.FileStats.executor": "Run",
+    "Application.GenericStackDemo.executor": "Run",
+    "Application.GenericsDemo.executor": "Run",
+    "Application.InputMismatchException.executor": "Run",
+    "Application.InsertionSortDemo.executor": "Run",
+    "Application.LabelDemo.executor": "Run",
+    "Application.ListDirContents.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MergeSortDemo.executor": "Run",
+    "Application.MyListDemo.executor": "Run",
+    "Application.ObjectInputStreamDemo.executor": "Run",
+    "Application.ObjectOutputStreamDemo.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.ProducerConsumerDemo1.executor": "Run",
+    "Application.ReadDemo2.executor": "Run",
+    "Application.SearchDemo.executor": "Run",
+    "Application.SelectionSortDemo.executor": "Run",
+    "Application.Series1.executor": "Run",
+    "Application.ServerDemo.executor": "Run",
+    "Application.ShowEllipses.executor": "Run",
+    "Application.SignalWaitDemo (1).executor": "Run",
+    "Application.SignalWaitDemo (2).executor": "Run",
+    "Application.SignalWaitDemo.executor": "Run",
+    "Application.SimpleJDBCDemo1.executor": "Run",
+    "Application.StreamDemo.executor": "Run",
+    "Application.StreamDemo2.executor": "Run",
+    "Application.StreamDemo3.executor": "Run",
+    "Application.StreamDemo4.executor": "Run",
+    "Application.StudentClient.executor": "Run",
+    "Application.StudentInDemo.executor": "Run",
+    "Application.StudentOutDemo.executor": "Run",
+    "Application.StudentServer.executor": "Run",
+    "Application.TaskAndThreadDemo.executor": "Run",
+    "Application.TestShips.executor": "Run",
+    "Application.ThreadPoolDemo.executor": "Run",
+    "Application.VowelCount.executor": "Run",
+    "Application.WriteNumber.executor": "Run",
+    "Application.WriteToFileDemo1.executor": "Run",
+    "Application.WriteToFileDemo2.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/christianm/IdeaProjects/Fall2023COSC180SectionA/src",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/christianm/IdeaProjects/Fall2023COSC180SectionA",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.45172414",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lo_multi_threading" />
+      <recent name="lo_oop" />
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA" />
+      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src\gui\student_demo" />
+      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src\lo_networking" />
+      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src\gui" />
+      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\data_files" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lo_jdbc" />
+      <recent name="gui.student_demo" />
+      <recent name="gui.animations" />
+      <recent name="gui" />
+      <recent name="lo_multi_threading.consumer_producer" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CharacterDemo">
-    <configuration name="CharacterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CharacterDemo" />
+  <component name="RunManager" selected="Application.SimpleJDBCDemo1">
+    <configuration name="BubbleSortDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_sorting.BubbleSortDemo" />
       <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="12 19 11 5 198 1 4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleCircumference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CircleCircumference" />
+    <configuration name="DataInputStreamDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_io.DataInputStreamDemo" />
       <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="data_files/datafile1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleCircumference2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CircleCircumference2" />
+    <configuration name="DataOutputStreamDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_io.DataOutputStreamDemo" />
       <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="data_files/datafile1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Fibonacci" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_recursion.Fibonacci" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileCopyDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_io.FileCopyDemo" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="data_files/bin_file1 data_files/bin_file2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileInputStreamDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_io.FileInputStreamDemo" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="data_files/bin_file1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOutputStreamDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_io.FileOutputStreamDemo" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="data_files/bin_file1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_sorting.InsertionSortDemo" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="7 9 12 81 1 -5 8 25 -5 5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_recursion.Palindrome" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="A ZZ RADAR HAAH HAA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_sorting.SearchDemo" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="17 98 438 60 13 17 98 768 94" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_sorting.SelectionSortDemo" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="12 19 11 5 -82 198 1 4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerDemo" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_networking.ServerDemo" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="9005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_networking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowEllipses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.ShowEllipses" />
+      <module name="Fall2023COSC180SectionA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleJDBCDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_jdbc.SimpleJDBCDemo1" />
+      <module name="Fall2023COSC180SectionA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_networking.StudentClient" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="localhost 9090" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_networking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_networking.StudentServer" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="9090" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_networking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VowelCount" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_recursion.VowelCount" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="KalanKalynka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteNumber" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_io.WriteNumber" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="1002 809 75 34 6574 33 6787 4265 8742 33 45676 33 2 4 6 4 6 5 " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteToFileDemo2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_io.WriteToFileDemo2" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="data_files/test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BubbleSortDemo" />
+      <item itemvalue="Application.DataInputStreamDemo" />
+      <item itemvalue="Application.DataOutputStreamDemo" />
+      <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.FileCopyDemo" />
+      <item itemvalue="Application.FileInputStreamDemo" />
+      <item itemvalue="Application.FileOutputStreamDemo" />
+      <item itemvalue="Application.InsertionSortDemo" />
+      <item itemvalue="Application.Palindrome" />
+      <item itemvalue="Application.SearchDemo" />
+      <item itemvalue="Application.SelectionSortDemo" />
+      <item itemvalue="Application.VowelCount" />
+      <item itemvalue="Application.WriteNumber" />
+      <item itemvalue="Application.WriteToFileDemo2" />
+      <item itemvalue="Application.SimpleJDBCDemo1" />
+      <item itemvalue="Application.StudentClient" />
+      <item itemvalue="Application.StudentServer" />
+      <item itemvalue="Application.ServerDemo" />
+      <item itemvalue="Application.ShowEllipses" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CharacterDemo" />
-        <item itemvalue="Application.CircleCircumference2" />
-        <item itemvalue="Application.CircleCircumference" />
+        <item itemvalue="Application.SimpleJDBCDemo1" />
+        <item itemvalue="Application.StudentServer" />
+        <item itemvalue="Application.StudentClient" />
+        <item itemvalue="Application.ShowEllipses" />
+        <item itemvalue="Application.ServerDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -111,40 +698,486 @@
       <workItem from="1694011331069" duration="2003000" />
       <workItem from="1694015508949" duration="124000" />
       <workItem from="1694015646222" duration="1869000" />
+      <workItem from="1694034041767" duration="1882000" />
+      <workItem from="1694103014922" duration="766000" />
+      <workItem from="1694441461275" duration="467000" />
+      <workItem from="1694441941156" duration="6916000" />
+      <workItem from="1694614871389" duration="6897000" />
+      <workItem from="1694702302707" duration="3669000" />
+      <workItem from="1694725188157" duration="193000" />
+      <workItem from="1694725410871" duration="415000" />
+      <workItem from="1695047225574" duration="7611000" />
+      <workItem from="1695220080128" duration="5035000" />
+      <workItem from="1695306741725" duration="6282000" />
+      <workItem from="1695324476770" duration="652000" />
+      <workItem from="1695652649188" duration="6106000" />
+      <workItem from="1695667640822" duration="687000" />
+      <workItem from="1695824390889" duration="5881000" />
+      <workItem from="1695911442469" duration="9558000" />
+      <workItem from="1696429823438" duration="6408000" />
+      <workItem from="1696444482445" duration="2045000" />
+      <workItem from="1696517074134" duration="4547000" />
+      <workItem from="1697121427767" duration="3763000" />
+      <workItem from="1697136118133" duration="2212000" />
+      <workItem from="1697218115164" duration="897000" />
+      <workItem from="1697227022202" duration="5866000" />
+      <workItem from="1698071706466" duration="5501000" />
+      <workItem from="1698244680549" duration="5943000" />
+      <workItem from="1698260708537" duration="1814000" />
+      <workItem from="1698330944309" duration="6350000" />
+      <workItem from="1698676318384" duration="7214000" />
+      <workItem from="1698849224594" duration="5566000" />
+      <workItem from="1698935127974" duration="6313000" />
+      <workItem from="1699281229928" duration="7146000" />
+      <workItem from="1699454237315" duration="6058000" />
+      <workItem from="1699476225708" duration="272000" />
+      <workItem from="1699546379945" duration="667000" />
+      <workItem from="1699559630691" duration="1448000" />
+      <workItem from="1700082409276" duration="21000" />
+      <workItem from="1700088965854" duration="5601000" />
+      <workItem from="1700751003415" duration="5366000" />
+      <workItem from="1701268622527" duration="4559000" />
+      <workItem from="1701354771201" duration="5264000" />
+      <workItem from="1701704436257" duration="834000" />
+      <workItem from="1701717698316" duration="783000" />
+      <workItem from="1701797543822" duration="772000" />
+      <workItem from="1701801818549" duration="3043000" />
+      <workItem from="1701836254530" duration="141000" />
+      <workItem from="1701959480520" duration="6293000" />
+      <workItem from="1701974699898" duration="2312000" />
+      <workItem from="1702053379384" duration="2305000" />
+      <workItem from="1704210944636" duration="100000" />
+      <workItem from="1704211050752" duration="8100000" />
+      <workItem from="1704384022679" duration="5616000" />
+      <workItem from="1704730589576" duration="7001000" />
+      <workItem from="1704817974582" duration="10463000" />
+      <workItem from="1704990807657" duration="5692000" />
+      <workItem from="1705339197421" duration="3460000" />
+      <workItem from="1705421465968" duration="205000" />
+      <workItem from="1705421684195" duration="13509000" />
+      <workItem from="1705515733454" duration="14972000" />
+      <workItem from="1705945184995" duration="5038000" />
+      <workItem from="1706023436630" duration="9101000" />
+      <workItem from="1706115588063" duration="1920000" />
+      <workItem from="1706196356478" duration="3523000" />
+      <workItem from="1706201725761" duration="4133000" />
+      <workItem from="1706547003052" duration="6055000" />
+      <workItem from="1706632660511" duration="19296000" />
+      <workItem from="1706891817538" duration="4804000" />
+      <workItem from="1706983338149" duration="9473000" />
+      <workItem from="1707161448512" duration="3850000" />
+      <workItem from="1707234025320" duration="22800000" />
+      <workItem from="1707334233517" duration="673000" />
+      <workItem from="1708963740413" duration="924000" />
+      <workItem from="1708967236495" duration="1257000" />
+      <workItem from="1709052869674" duration="4166000" />
+      <workItem from="1709310356252" duration="231000" />
+      <workItem from="1709656513199" duration="4905000" />
+      <workItem from="1709832758939" duration="1179000" />
+      <workItem from="1709914031049" duration="508000" />
+      <workItem from="1710175757041" duration="2333000" />
+      <workItem from="1710263871145" duration="1747000" />
+      <workItem from="1710437619642" duration="2575000" />
+      <workItem from="1710524158017" duration="10000" />
+      <workItem from="1710779954555" duration="3605000" />
+      <workItem from="1710867747255" duration="2960000" />
+      <workItem from="1710878851854" duration="694000" />
+      <workItem from="1710879985685" duration="1471000" />
+      <workItem from="1711036141808" duration="3727000" />
     </task>
-    <task id="LOCAL-00001" summary="Maxwell Christian">
+    <task id="LOCAL-00133" summary="Maxwell Christian">
       <option name="closed" value="true" />
-      <created>1694012908340</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+      <created>1706206014155</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
       <option name="project" value="LOCAL" />
-      <updated>1694012908340</updated>
+      <updated>1706206014155</updated>
     </task>
-    <task id="LOCAL-00002" summary="Maxwell Christian">
+    <task id="LOCAL-00134" summary="Maxwell Christian">
       <option name="closed" value="true" />
-      <created>1694015577920</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+      <created>1706207220687</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
       <option name="project" value="LOCAL" />
-      <updated>1694015577920</updated>
+      <updated>1706207220687</updated>
     </task>
-    <task id="LOCAL-00003" summary="Maxwell Christian">
+    <task id="LOCAL-00135" summary="Maxwell Christian">
       <option name="closed" value="true" />
-      <created>1694016470865</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+      <created>1706548837479</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
       <option name="project" value="LOCAL" />
-      <updated>1694016470865</updated>
+      <updated>1706548837480</updated>
     </task>
-    <task id="LOCAL-00004" summary="Maxwell Christian">
+    <task id="LOCAL-00136" summary="Maxwell Christian">
       <option name="closed" value="true" />
-      <created>1694017026181</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+      <created>1706551862688</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
       <option name="project" value="LOCAL" />
-      <updated>1694017026181</updated>
+      <updated>1706551862688</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00137" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706552819472</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1706552819472</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706634217543</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1706634217544</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706634475964</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1706634475964</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706635586022</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1706635586022</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706636046500</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1706636046500</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706636884247</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1706636884247</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706638859846</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1706638859846</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706806424006</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1706806424006</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706807382572</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1706807382572</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706809132185</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1706809132186</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1706809148284</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1706809148284</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707152050609</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1707152050609</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707154405708</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1707154405708</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707155613465</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1707155613465</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707157371676</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1707157371676</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707237942239</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1707237942239</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707238576780</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1707238576780</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707239617975</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1707239617975</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707239804184</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1707239804184</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707241940232</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1707241940232</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707243649858</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1707243649858</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707317335566</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1707317335566</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707320245712</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1707320245712</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1707322729570</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1707322729570</updated>
+    </task>
+    <task id="LOCAL-00161" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1708967263336</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1708967263336</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1708968576163</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1708968576164</updated>
+    </task>
+    <task id="LOCAL-00163" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1709052917963</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1709052917963</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1709054770872</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1709054770872</updated>
+    </task>
+    <task id="LOCAL-00165" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1709056918376</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1709056918376</updated>
+    </task>
+    <task id="LOCAL-00166" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1709058135800</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1709058135800</updated>
+    </task>
+    <task id="LOCAL-00167" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1709657045765</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1709657045765</updated>
+    </task>
+    <task id="LOCAL-00168" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1709658540889</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1709658540889</updated>
+    </task>
+    <task id="LOCAL-00169" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1709659760609</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1709659760609</updated>
+    </task>
+    <task id="LOCAL-00170" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1709662354553</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1709662354553</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1709663416544</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1709663416544</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710176088855</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1710176088855</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710263910741</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1710263910741</updated>
+    </task>
+    <task id="LOCAL-00174" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710265092876</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1710265092876</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710437662007</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1710437662007</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710440132572</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1710440132572</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710781238530</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1710781238530</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710783617144</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783617144</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710785459255</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1710785459255</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710868144087</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1710868144088</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1710870744112</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1710870744112</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,5 +1186,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maxwell Christian" />
     <option name="LAST_COMMIT_MESSAGE" value="Maxwell Christian" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
