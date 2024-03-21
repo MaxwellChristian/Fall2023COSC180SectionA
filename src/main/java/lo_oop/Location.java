@@ -1,7 +1,5 @@
 package lo_oop;
 
-import javax.swing.plaf.IconUIResource;
-
 public class Location {
 
     private double maxValue;

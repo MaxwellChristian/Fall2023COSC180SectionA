@@ -1,3 +1,5 @@
+package test_;
+
 import java.util.Arrays;
 
 public class TestMethods {
@@ -18,13 +20,13 @@ public class TestMethods {
         System.out.println("Sum: " + sum);
 
         // get an array with even values from the generated array
-        // [using a method from MyUtilities]
-//        int []evenValues = MyUtilities.filterEvenValues(values);
+        // [using a method from test_.MyUtilities]
+//        int []evenValues = test_.MyUtilities.filterEvenValues(values);
 //        System.out.println(Arrays.toString(evenValues));
 
         // get an array with odd values from the generated array
-        // [using a method from MyUtilities]
-//        int []oddValues = MyUtilities.filterOddValues(values);
+        // [using a method from test_.MyUtilities]
+//        int []oddValues = test_.MyUtilities.filterOddValues(values);
 //        System.out.println(Arrays.toString(oddValues));
 
 //        final int TYPE_EVEN = 1;

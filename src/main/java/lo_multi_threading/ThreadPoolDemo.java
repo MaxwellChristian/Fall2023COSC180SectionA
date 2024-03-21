@@ -25,7 +25,7 @@ public class ThreadPoolDemo {
         // wait till all threads are completed
         while (!executorService.isTerminated());
 
-        System.out.println("Main: Completed");
+        System.out.println("test_.Main: Completed");
 
     }
 

@@ -4,14 +4,14 @@ public class CustomThreadDemo3 {
 
     public static void main(String ... args) {
 
-        System.out.println("Main: Before all threads");
+        System.out.println("test_.Main: Before all threads");
 
         CustomThread2 cThread1 = new CustomThread2("C1", 100, 1000);
         CustomThread2 cThread2 = new CustomThread2("C2", 50, 2000);
         CustomThread2 cThread3 = new CustomThread2("C3", 10, 3000);
 
-        System.out.println("Main: After all threads created");
-        System.out.println("Main: Before all threads started");
+        System.out.println("test_.Main: After all threads created");
+        System.out.println("test_.Main: Before all threads started");
 
         cThread1.start();
         cThread2.start();
@@ -33,7 +33,7 @@ public class CustomThreadDemo3 {
             throw new RuntimeException(e);
         }
 
-        System.out.println("Main: After all threads completed");
+        System.out.println("test_.Main: After all threads completed");
 
     }
 

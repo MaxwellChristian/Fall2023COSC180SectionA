@@ -10,225 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08a2b9c9-bd09-4643-b4fe-a8a29bd92724" name="Changes" comment="Maxwell Christian">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Fall2023COSC180SectionA_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Students.accdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db_files/Students.accdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/ArrayExplanation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Helicopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/VehicleDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/Greek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lo_jdbc/SimpleJDBCDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/controlsfx.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fall2023COSC180SectionA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fall2023COSC180SectionA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Arrays_Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Arrays_Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Arrays_Methods_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Arrays_Methods_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Arrays_Methods_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Arrays_Methods_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_Loops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/Demo_methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/Demo_methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doubt_solving_session_1/MyDemoMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/doubt_solving_session_1/MyDemoMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception_handling/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception_handling/Demo2WithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/Demo2WithMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception_handling/Demo3WithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/Demo3WithMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception_handling/DemoMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/DemoMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception_handling/InputMismatchException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/InputMismatchException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception_handling/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exception_handling/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/BorderPaneDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/BorderPaneDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/ButtonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ButtonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/ComboDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ComboDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/GridDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/GridDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/HBoxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/HBoxDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/LabelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/LabelDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/ScrollBarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ScrollBarDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/ShowEllipses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/ShowEllipses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/TextControlsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/TextControlsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/TextDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/TextDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/animations/DiceMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/animations/DiceMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/animations/FadeShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/animations/FadeShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/animations/PathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/animations/PathDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/clock_demo/ClockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/clock_demo/ClockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/clock_demo/ClockPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/clock_demo/ClockPane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/student_demo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/student_demo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/student_demo/StudentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/student_demo/StudentClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/student_demo/StudentServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/student_demo/StudentServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/tic_tac_toe/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/tic_tac_toe/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/tic_tac_toe/TicTacToeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/tic_tac_toe/TicTacToeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/ArrayIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/ArrayIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/CombineArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/CombineArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/CombineArrays2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/CombineArrays2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/CombineArrays3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/CombineArrays3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/DisplayAllEvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/DisplayAllEvenNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/TernaryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/TernaryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/TextStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/TextStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/VowelsAndConsonants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/VowelsAndConsonants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/arrays_2d/AttendanceDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/arrays_2d/AttendanceDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/arrays_2d/AttendanceDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/arrays_2d/AttendanceDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_arrays/arrays_2d/AttendanceDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/arrays_2d/AttendanceDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/LargerOfTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/LargerOfTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/PositiveNegativeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/PositiveNegativeCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/PositiveNegativeCheck2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/PositiveNegativeCheck2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/PrecedenceAndAssociativityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/PrecedenceAndAssociativityDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_decision_statements/ShowWeekDayName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_decision_statements/ShowWeekDayName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/CalculateAreaOfCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/CalculateAreaOfCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/CharacterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/CharacterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/CircleCircumference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/CircleCircumference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/CircleCircumference2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/CircleCircumference2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/DemoPrintF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/DemoPrintF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/IncrementDecrementOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/IncrementDecrementOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/OperatorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/OperatorsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_elementary_programming/ShowName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/ShowName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/CSTStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/CSTStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/StreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/StreamDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/StreamDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/AppleColorPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/AppleColorPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/ApplePredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/ApplePredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/AppleRedAndHeavyPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/AppleRedAndHeavyPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/AppleWeightPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/AppleWeightPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/apple_example/FilteringApples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/apple_example/FilteringApples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/battle/BattleShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/BattleShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/battle/TestShips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/TestShips.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_functional_programming/battle/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_generics/GenericMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/GenericMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_generics/GenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/GenericStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_generics/GenericStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/GenericStackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_generics/GenericsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/GenericsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_generics/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/MyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_generics/MyListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/MyListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_generics/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_generics/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Ambulance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Ambulance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/EmergencyVehicles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/EmergencyVehicles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/ShapeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/ShapeDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/ShapeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/EvilEye.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/EvilEye.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/Greek.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/Lucky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/Lucky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/MonsterList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/MonsterList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/monsters/UnDead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/monsters/UnDead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_inheritance/multi_level/MultiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/multi_level/MultiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/DataInputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/DataInputStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/DataOutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/DataOutputStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/FetchFromURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FetchFromURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/FileCopyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileCopyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/FileCreationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileCreationDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/FileInputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileInputStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/FileOutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileOutputStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/FileStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/FileStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/ListDirContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/ListDirContents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/ObjectInputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/ObjectInputStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/ObjectOutputStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/ObjectOutputStreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/ReadDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/ReadDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/StudentInDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/StudentInDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/StudentOutDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/StudentOutDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/WriteNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/WriteNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/WriteToFileDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/WriteToFileDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_io/WriteToFileDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_io/WriteToFileDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_loops/CountDigitsInNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/CountDigitsInNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_loops/DemoOfDoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/DemoOfDoWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_loops/DemoOfFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/DemoOfFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_loops/DemoOfWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/DemoOfWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_loops/KgToPounds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/KgToPounds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_loops/MultiplesOf5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/MultiplesOf5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_loops/OccurrenceOfChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/OccurrenceOfChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_loops/ReplaceCharInText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/ReplaceCharInText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_loops/TuitionTrend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_loops/TuitionTrend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_math_string_fns/MathFnsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_math_string_fns/MathFnsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_math_string_fns/StringFnsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_math_string_fns/StringFnsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/DaysMonths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/DaysMonths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/DigitMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/DigitMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/DisplayFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/DisplayFactorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/MethodIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/MethodIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/MethodsAndArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/MethodsAndArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/PrimeCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/PrimeCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/PrimeCharacter2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/PrimeCharacter2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/PrimeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/ReverseWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/ReverseWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/ShowBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/ShowBits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_methods/StringTokenizerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_methods/StringTokenizerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThreadDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/CustomThreadDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/SignalWaitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/SignalWaitDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/TaskAndThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/TaskAndThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/ThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/account_example/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/account_example/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/account_example/AccountTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/account_example/AccountTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/account_example/DepositTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/account_example/DepositTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/ConsumerProducerUsingBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/ConsumerProducerUsingBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/ConsumerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/ConsumerTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/ProducerConsumerDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/ProducerConsumerDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_multi_threading/consumer_producer/ProducerTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/consumer_producer/ProducerTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_networking/AreaOfCircle_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/AreaOfCircle_Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_networking/AreaOfCircle_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/AreaOfCircle_Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_networking/ClientDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/ClientDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_networking/ServerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/ServerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_networking/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_networking/StudentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/StudentClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_networking/StudentServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_networking/StudentServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/Biometrics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Biometrics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/CircleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/ContactNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/ContactNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/DOB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/DOB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Fan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/FanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/FanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/LocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/LocationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/PersonName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/PersonName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/StudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/StudentDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/StudentDemo_v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/StudentDemo_v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/Student_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Student_V2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/TV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/TVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/TVTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_oop/WrapperDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/WrapperDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Series1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Series1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_recursion/Sum1ToN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/Sum1ToN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_recursion/VowelCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_recursion/VowelCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_sorting/BubbleSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/BubbleSortDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_sorting/InsertionSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/InsertionSortDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_sorting/MergeSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/MergeSortDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_sorting/SearchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/SearchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_sorting/SelectionSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/SelectionSortDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lo_sorting/SortingMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_sorting/SortingMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_/MyUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_/TestMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_arrays/TextStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/TextStatistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/IncrementDecrementOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/IncrementDecrementOperators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/TestShips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/TestShips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_jdbc/SimpleJDBCDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_jdbc/SimpleJDBCDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_multi_threading/TaskAndThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/TaskAndThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_multi_threading/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_oop/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/CircleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lo_oop/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Location.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +43,7 @@
         <option value="Interface" />
         <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -355,9 +157,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.45172414",
+    "project.structure.side.proportion": "0.28275862",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
@@ -375,6 +177,9 @@
       <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src\gui" />
       <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\data_files" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lo_jdbc" />
       <recent name="gui.student_demo" />
@@ -383,7 +188,7 @@
       <recent name="lo_multi_threading.consumer_producer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleJDBCDemo1">
+  <component name="RunManager" selected="Application.CountDigitsInNumber">
     <configuration name="BubbleSortDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lo_sorting.BubbleSortDemo" />
       <module name="Fall2023COSC180SectionA" />
@@ -391,6 +196,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lo_sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.ButtonDemo" />
+      <module name="Fall2023COSC180SectionA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDigitsInNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_loops.CountDigitsInNumber" />
+      <module name="Fall2023COSC180SectionA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -538,33 +369,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerDemo" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lo_networking.ServerDemo" />
-      <module name="Fall2023COSC180SectionA" />
-      <option name="PROGRAM_PARAMETERS" value="9005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lo_networking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShowEllipses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gui.ShowEllipses" />
-      <module name="Fall2023COSC180SectionA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SimpleJDBCDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lo_jdbc.SimpleJDBCDemo1" />
       <module name="Fall2023COSC180SectionA" />
@@ -663,19 +467,19 @@
       <item itemvalue="Application.VowelCount" />
       <item itemvalue="Application.WriteNumber" />
       <item itemvalue="Application.WriteToFileDemo2" />
+      <item itemvalue="Application.ButtonDemo" />
+      <item itemvalue="Application.CountDigitsInNumber" />
       <item itemvalue="Application.SimpleJDBCDemo1" />
       <item itemvalue="Application.StudentClient" />
       <item itemvalue="Application.StudentServer" />
-      <item itemvalue="Application.ServerDemo" />
-      <item itemvalue="Application.ShowEllipses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDigitsInNumber" />
+        <item itemvalue="Application.ButtonDemo" />
         <item itemvalue="Application.SimpleJDBCDemo1" />
         <item itemvalue="Application.StudentServer" />
         <item itemvalue="Application.StudentClient" />
-        <item itemvalue="Application.ShowEllipses" />
-        <item itemvalue="Application.ServerDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -783,15 +587,7 @@
       <workItem from="1710867747255" duration="2960000" />
       <workItem from="1710878851854" duration="694000" />
       <workItem from="1710879985685" duration="1471000" />
-      <workItem from="1711036141808" duration="3727000" />
-    </task>
-    <task id="LOCAL-00133" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706206014155</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1706206014155</updated>
+      <workItem from="1711036141808" duration="7570000" />
     </task>
     <task id="LOCAL-00134" summary="Maxwell Christian">
       <option name="closed" value="true" />
@@ -1177,7 +973,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710870744112</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711040871299</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1711040871299</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

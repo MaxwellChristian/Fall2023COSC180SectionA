@@ -1,10 +1,8 @@
 package lo_functional_programming;
 
-import jdk.jshell.EvalException;
-
 import java.util.Arrays;
 
-public class StreamDemo {
+public class  StreamDemo {
 
     public static void main(String[] args) {
 

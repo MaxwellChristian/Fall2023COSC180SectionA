@@ -9,7 +9,7 @@ package lo_arrays;
 * - count of all special characters
 * */
 
-import javax.swing.text.html.HTMLEditorKit;
+
 import java.util.Scanner;
 
 public class TextStatistics {

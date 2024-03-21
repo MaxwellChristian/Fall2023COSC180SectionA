@@ -1,7 +1,5 @@
 package lo_oop;
 
-import java.awt.image.CropImageFilter;
-
 public class CircleTest {
 
     public static void main(String []artgws){

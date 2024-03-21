@@ -1,7 +1,5 @@
 package lo_inheritance;
 
-import org.w3c.dom.css.Rect;
-
 public class ShapeDemo {
 
     public static void main(String []args) {

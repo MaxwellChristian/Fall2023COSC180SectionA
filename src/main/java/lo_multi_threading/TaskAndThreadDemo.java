@@ -22,7 +22,7 @@ public class TaskAndThreadDemo {
         Thread threadB = new Thread(taskPrintB);
         Thread threadC = new Thread(taskPrintNums);
 
-        System.out.println("Main: Starting threads");
+        System.out.println("test_.Main: Starting threads");
         long startTime = System.currentTimeMillis();
 
         // execute/start the threads
@@ -31,9 +31,9 @@ public class TaskAndThreadDemo {
         threadC.start();
 
         long endTime = System.currentTimeMillis();
-        System.out.println("Main: After all threads");
+        System.out.println("test_.Main: After all threads");
 
-        System.out.println("Main: Time consumed: " + (endTime - startTime));
+        System.out.println("test_.Main: Time consumed: " + (endTime - startTime));
 
     }
 
