@@ -1,9 +1,8 @@
 package lo_jdbc;
 
-import javax.security.auth.login.AccountLockedException;
 import java.sql.*;
 
-public class StudentList {
+public class StudentListUsingPreparedStatement {
 
     public static void main(String []args) {
 
@@ -11,20 +10,17 @@ public class StudentList {
             // connect to database
             Connection connection = connect();
 
-            // create a statement
-            Statement statement = connection.createStatement();
-
             // execute and fetch the results
 //            String sqlQuery =
 //                    "SELECT " +
-//                        "LastName, FirstName AS FN, StudentID, Level " +
-//                    "FROM " +
-//                        "Students " +
-//                    "WHERE " +
-//                        "Level = 'Senior' " +
-//                    "OR " +
-//                            "LastName = 'Christian'" +
-//                    "";
+//                            "LastName, FirstName AS FN, StudentID, Level " +
+//                        "FROM " +
+//                            "Students " +
+//                        "WHERE " +
+//                            "Level = '" + args[0] + "' " +
+//                        "AND " +
+//                            "LastName = '" + args[1] + "'" +
+//                            "";
 
             String sqlQuery =
                     "SELECT " +
@@ -32,13 +28,20 @@ public class StudentList {
                         "FROM " +
                             "Students " +
                         "WHERE " +
-                            "Level = '" + args[0] + "' " +
+                            "Level = ? " +
                         "AND " +
-                            "LastName = '" + args[1] + "'" +
+                            "LastName = ? " +
                             "";
 
+            // create a prepared statement
+            PreparedStatement preparedStatement = connection.prepareStatement(sqlQuery);
+
+            // set the dynamic values to prepare the query
+            preparedStatement.setString(1, args[0]);
+            preparedStatement.setString(2, args[1]);
+
             // fetch the results
-            ResultSet resultSet = statement.executeQuery(sqlQuery);
+            ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 System.out.print( resultSet.getString(1) );
                 System.out.print(", ");
