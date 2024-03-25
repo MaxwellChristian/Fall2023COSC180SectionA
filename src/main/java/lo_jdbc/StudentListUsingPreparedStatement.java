@@ -42,6 +42,9 @@ public class StudentListUsingPreparedStatement {
 
             // fetch the results
             ResultSet resultSet = preparedStatement.executeQuery();
+
+            ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
+
             while (resultSet.next()) {
                 System.out.print( resultSet.getString(1) );
                 System.out.print(", ");
