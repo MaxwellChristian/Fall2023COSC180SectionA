@@ -42,9 +42,9 @@ public class StudentAttendance {
 
             String sqlQuery =
                     "SELECT " +
-                            "Status " +
+                            "Status, AttendanceDate " +
                         "FROM " +
-                            "Student Attendance " +
+                            "StudentAttendance " +
                             "";
 
             // create a prepared statement
@@ -60,6 +60,7 @@ public class StudentAttendance {
 
             while (resultSet.next()) {
                 System.out.printf("%-30s ", resultSet.getString(1));
+                System.out.printf("%-30s ", resultSet.getString(2));
 
                 System.out.println();
             }
