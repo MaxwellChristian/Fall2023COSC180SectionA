@@ -42,9 +42,16 @@ public class StudentAttendance {
 
             String sqlQuery =
                     "SELECT " +
-                            "Status, AttendanceDate " +
+                            "Student, " +
+                            "LastName, " +
+                            "FirstName, " +
+                            "Status, " +
+                            "AttendanceDate " +
                         "FROM " +
+                            "Students, " +
                             "StudentAttendance " +
+                        " WHERE " +
+                            "Students.ID = StudentAttendance.Student" +
                             "";
 
             // create a prepared statement
@@ -59,8 +66,11 @@ public class StudentAttendance {
             ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
 
             while (resultSet.next()) {
-                System.out.printf("%-30s ", resultSet.getString(1));
+                System.out.printf("%-3s ", resultSet.getString(1));
                 System.out.printf("%-30s ", resultSet.getString(2));
+                System.out.printf("%-30s ", resultSet.getString(3));
+                System.out.printf("%-30s ", resultSet.getString(4));
+                System.out.printf("%-30s ", resultSet.getString(5));
 
                 System.out.println();
             }
