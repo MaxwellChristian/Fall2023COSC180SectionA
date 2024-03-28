@@ -10,6 +10,8 @@ module Fall2023COSC180SectionA {
     exports gui.tic_tac_toe;
 
     exports lo_networking;
+    exports lo_networking.tic_tac_toe;
+
     exports lo_jdbc;
 
 }
