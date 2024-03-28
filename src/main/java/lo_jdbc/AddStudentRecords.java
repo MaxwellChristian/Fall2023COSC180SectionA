@@ -25,6 +25,8 @@ public class AddStudentRecords {
                                 "?" +
                             ")";
 
+            // "INSERT INTO Students (FirstName, Level) VALUES ('FFNN', 'Senior')";
+
             // create a prepared statement
             PreparedStatement preparedStatement = connection.prepareStatement(sqlQuery);
 
