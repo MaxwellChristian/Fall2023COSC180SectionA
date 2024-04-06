@@ -14,4 +14,6 @@ module Fall2023COSC180SectionA {
 
     exports lo_jdbc;
 
+    exports _2024_sim_2;
+
 }

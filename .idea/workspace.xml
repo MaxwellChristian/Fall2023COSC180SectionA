@@ -10,26 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08a2b9c9-bd09-4643-b4fe-a8a29bd92724" name="Changes" comment="Maxwell Christian">
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/controlsfx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_jdbc/FindGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_networking/tic_tac_toe/TicTacToeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_networking/tic_tac_toe/TicTacToeConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lo_networking/tic_tac_toe/TicTacToeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fall2023COSC180SectionA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fall2023COSC180SectionA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_/MyUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_/TestMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_arrays/TextStatistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_arrays/TextStatistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/IncrementDecrementOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_elementary_programming/IncrementDecrementOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/StreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/TestShips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_functional_programming/battle/TestShips.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_inheritance/ShapeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_jdbc/SimpleJDBCDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_jdbc/SimpleJDBCDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/CustomThreadDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_multi_threading/TaskAndThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/TaskAndThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_multi_threading/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_multi_threading/ThreadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_oop/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/CircleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lo_oop/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lo_oop/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_sim_2/DiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_sim_2/DiceGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_sim_2/Max2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_sim_2/Max2DArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +31,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="JavaFXApplication" />
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,14 +45,12 @@
     &quot;assignee&quot;: &quot;MaxwellChristian&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="dfedc686-ce62-43ae-8d05-c8a625814254" />
-        <option name="url" value="https://github.com/MaxwellChristian/Fall2023COSC180SectionA.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MaxwellChristian/Fall2023COSC180SectionA.git",
+    "accountId": "dfedc686-ce62-43ae-8d05-c8a625814254"
+  }
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="oxl3uqcl" />
   </component>
@@ -81,20 +68,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AccountTest1.executor": "Run",
+    "Application.AddStudentRecords.executor": "Run",
     "Application.BubbleSortDemo.executor": "Run",
     "Application.ButtonDemo.executor": "Run",
     "Application.ClientDemo.executor": "Run",
     "Application.ConsumerProducerUsingBlockingQueue.executor": "Run",
+    "Application.CountDigitsInNumber.executor": "Run",
     "Application.CustomThreadDemo.executor": "Run",
     "Application.CustomThreadDemo2.executor": "Run",
     "Application.CustomThreadDemo3.executor": "Run",
     "Application.DataInputStreamDemo.executor": "Run",
     "Application.DataOutputStreamDemo.executor": "Run",
+    "Application.DeleteStudentRecord.executor": "Run",
     "Application.Demo1.executor": "Run",
     "Application.Demo2WithMethods.executor": "Run",
     "Application.Demo3WithMethods.executor": "Run",
+    "Application.DiceGame.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FetchFromURL.executor": "Run",
+    "Application.FetchStudentRecords.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FileCopyDemo.executor": "Run",
     "Application.FileCreationDemo.executor": "Run",
@@ -102,6 +94,7 @@
     "Application.FileInputStreamDemo.executor": "Run",
     "Application.FileOutputStreamDemo.executor": "Run",
     "Application.FileStats.executor": "Run",
+    "Application.FindGrade.executor": "Run",
     "Application.GenericStackDemo.executor": "Run",
     "Application.GenericsDemo.executor": "Run",
     "Application.InputMismatchException.executor": "Run",
@@ -109,6 +102,7 @@
     "Application.LabelDemo.executor": "Run",
     "Application.ListDirContents.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Max2DArray.executor": "Run",
     "Application.MergeSortDemo.executor": "Run",
     "Application.MyListDemo.executor": "Run",
     "Application.ObjectInputStreamDemo.executor": "Run",
@@ -116,34 +110,46 @@
     "Application.Palindrome.executor": "Run",
     "Application.ProducerConsumerDemo1.executor": "Run",
     "Application.ReadDemo2.executor": "Run",
+    "Application.ResultSetMetaDataDemo.executor": "Run",
     "Application.SearchDemo.executor": "Run",
     "Application.SelectionSortDemo.executor": "Run",
     "Application.Series1.executor": "Run",
     "Application.ServerDemo.executor": "Run",
     "Application.ShowEllipses.executor": "Run",
+    "Application.ShowMetaData.executor": "Run",
+    "Application.ShowTables.executor": "Run",
     "Application.SignalWaitDemo (1).executor": "Run",
     "Application.SignalWaitDemo (2).executor": "Run",
     "Application.SignalWaitDemo.executor": "Run",
     "Application.SimpleJDBCDemo1.executor": "Run",
+    "Application.SplitPaneDemo.executor": "Run",
     "Application.StreamDemo.executor": "Run",
     "Application.StreamDemo2.executor": "Run",
     "Application.StreamDemo3.executor": "Run",
     "Application.StreamDemo4.executor": "Run",
+    "Application.StudentAttendance.executor": "Run",
     "Application.StudentClient.executor": "Run",
     "Application.StudentInDemo.executor": "Run",
+    "Application.StudentList.executor": "Run",
+    "Application.StudentListUsingPreparedStatement.executor": "Run",
     "Application.StudentOutDemo.executor": "Run",
     "Application.StudentServer.executor": "Run",
+    "Application.TabPaneDemo.executor": "Run",
+    "Application.TableNamesOnTabs.executor": "Run",
     "Application.TaskAndThreadDemo.executor": "Run",
     "Application.TestShips.executor": "Run",
     "Application.ThreadPoolDemo.executor": "Run",
+    "Application.TicTacToeClient.executor": "Run",
+    "Application.TicTacToeServer.executor": "Run",
+    "Application.UpdateStudentRecord.executor": "Run",
     "Application.VowelCount.executor": "Run",
     "Application.WriteNumber.executor": "Run",
     "Application.WriteToFileDemo1.executor": "Run",
     "Application.WriteToFileDemo2.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -151,17 +157,22 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/christianm/IdeaProjects/Fall2023COSC180SectionA",
+    "last_opened_file_path": "C:/Users/christianm/IdeaProjects/Fall2023COSC180SectionA/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.28275862",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "project.structure.side.proportion": "0.38629285",
+    "settings.editor.selected.configurable": "database.query.execution",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -171,24 +182,24 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src\main\java" />
+      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src\main\java\lo_networking" />
       <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA" />
       <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src\gui\student_demo" />
       <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src\lo_networking" />
-      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\src\gui" />
-      <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA\data_files" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\christianm\IdeaProjects\Fall2023COSC180SectionA" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lo_jdbc.sqlite_demo" />
       <recent name="lo_jdbc" />
+      <recent name="gui" />
       <recent name="gui.student_demo" />
       <recent name="gui.animations" />
-      <recent name="gui" />
-      <recent name="lo_multi_threading.consumer_producer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDigitsInNumber">
+  <component name="RunManager" selected="Application.DiceGame">
     <configuration name="BubbleSortDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lo_sorting.BubbleSortDemo" />
       <module name="Fall2023COSC180SectionA" />
@@ -196,32 +207,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lo_sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ButtonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gui.ButtonDemo" />
-      <module name="Fall2023COSC180SectionA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountDigitsInNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lo_loops.CountDigitsInNumber" />
-      <module name="Fall2023COSC180SectionA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lo_loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,6 +235,46 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lo_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteStudentRecord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_jdbc.DeleteStudentRecord" />
+      <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="LT1 FT1 Senior" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiceGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024_sim_2.DiceGame" />
+      <module name="Fall2023COSC180SectionA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2024_sim_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FetchStudentRecords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_jdbc.sqlite_demo.FetchStudentRecords" />
+      <module name="Fall2023COSC180SectionA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lo_jdbc.sqlite_demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,6 +352,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Max2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2024_sim_2.Max2DArray" />
+      <module name="Fall2023COSC180SectionA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2024_sim_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Palindrome" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lo_recursion.Palindrome" />
       <module name="Fall2023COSC180SectionA" />
@@ -369,40 +407,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleJDBCDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lo_jdbc.SimpleJDBCDemo1" />
+    <configuration name="UpdateStudentRecord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lo_jdbc.UpdateStudentRecord" />
       <module name="Fall2023COSC180SectionA" />
+      <option name="PROGRAM_PARAMETERS" value="LT1 FT1 6" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lo_jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lo_networking.StudentClient" />
-      <module name="Fall2023COSC180SectionA" />
-      <option name="PROGRAM_PARAMETERS" value="localhost 9090" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lo_networking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lo_networking.StudentServer" />
-      <module name="Fall2023COSC180SectionA" />
-      <option name="PROGRAM_PARAMETERS" value="9090" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lo_networking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -467,27 +478,27 @@
       <item itemvalue="Application.VowelCount" />
       <item itemvalue="Application.WriteNumber" />
       <item itemvalue="Application.WriteToFileDemo2" />
-      <item itemvalue="Application.ButtonDemo" />
-      <item itemvalue="Application.CountDigitsInNumber" />
-      <item itemvalue="Application.SimpleJDBCDemo1" />
-      <item itemvalue="Application.StudentClient" />
-      <item itemvalue="Application.StudentServer" />
+      <item itemvalue="Application.DiceGame" />
+      <item itemvalue="Application.Max2DArray" />
+      <item itemvalue="Application.DeleteStudentRecord" />
+      <item itemvalue="Application.FetchStudentRecords" />
+      <item itemvalue="Application.UpdateStudentRecord" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountDigitsInNumber" />
-        <item itemvalue="Application.ButtonDemo" />
-        <item itemvalue="Application.SimpleJDBCDemo1" />
-        <item itemvalue="Application.StudentServer" />
-        <item itemvalue="Application.StudentClient" />
+        <item itemvalue="Application.DiceGame" />
+        <item itemvalue="Application.Max2DArray" />
+        <item itemvalue="Application.FetchStudentRecords" />
+        <item itemvalue="Application.DeleteStudentRecord" />
+        <item itemvalue="Application.UpdateStudentRecord" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -587,127 +598,16 @@
       <workItem from="1710867747255" duration="2960000" />
       <workItem from="1710878851854" duration="694000" />
       <workItem from="1710879985685" duration="1471000" />
-      <workItem from="1711036141808" duration="7570000" />
-    </task>
-    <task id="LOCAL-00134" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706207220687</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1706207220687</updated>
-    </task>
-    <task id="LOCAL-00135" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706548837479</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1706548837480</updated>
-    </task>
-    <task id="LOCAL-00136" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706551862688</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1706551862688</updated>
-    </task>
-    <task id="LOCAL-00137" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706552819472</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1706552819472</updated>
-    </task>
-    <task id="LOCAL-00138" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706634217543</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1706634217544</updated>
-    </task>
-    <task id="LOCAL-00139" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706634475964</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1706634475964</updated>
-    </task>
-    <task id="LOCAL-00140" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706635586022</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1706635586022</updated>
-    </task>
-    <task id="LOCAL-00141" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706636046500</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1706636046500</updated>
-    </task>
-    <task id="LOCAL-00142" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706636884247</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1706636884247</updated>
-    </task>
-    <task id="LOCAL-00143" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706638859846</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1706638859846</updated>
-    </task>
-    <task id="LOCAL-00144" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706806424006</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1706806424006</updated>
-    </task>
-    <task id="LOCAL-00145" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706807382572</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1706807382572</updated>
-    </task>
-    <task id="LOCAL-00146" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706809132185</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1706809132186</updated>
-    </task>
-    <task id="LOCAL-00147" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1706809148284</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1706809148284</updated>
-    </task>
-    <task id="LOCAL-00148" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1707152050609</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1707152050609</updated>
+      <workItem from="1711036141808" duration="8991000" />
+      <workItem from="1711125288088" duration="4331000" />
+      <workItem from="1711380905777" duration="8119000" />
+      <workItem from="1711471187554" duration="6183000" />
+      <workItem from="1711641526601" duration="242000" />
+      <workItem from="1711641785664" duration="6823000" />
+      <workItem from="1712177438967" duration="26000" />
+      <workItem from="1712181621265" duration="19000" />
+      <workItem from="1712335096959" duration="3306000" />
+      <workItem from="1712361296689" duration="310000" />
     </task>
     <task id="LOCAL-00149" summary="Maxwell Christian">
       <option name="closed" value="true" />
@@ -981,7 +881,127 @@
       <option name="project" value="LOCAL" />
       <updated>1711040871299</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711045037476</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1711045037476</updated>
+    </task>
+    <task id="LOCAL-00184" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711045798127</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1711045798127</updated>
+    </task>
+    <task id="LOCAL-00185" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711386360624</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1711386360624</updated>
+    </task>
+    <task id="LOCAL-00186" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711389231678</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1711389231678</updated>
+    </task>
+    <task id="LOCAL-00187" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711389669677</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1711389669677</updated>
+    </task>
+    <task id="LOCAL-00188" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711391183348</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1711391183348</updated>
+    </task>
+    <task id="LOCAL-00189" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711472133241</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1711472133241</updated>
+    </task>
+    <task id="LOCAL-00190" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711473012353</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1711473012353</updated>
+    </task>
+    <task id="LOCAL-00191" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711475314061</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1711475314061</updated>
+    </task>
+    <task id="LOCAL-00192" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711477007389</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1711477007389</updated>
+    </task>
+    <task id="LOCAL-00193" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711644892799</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1711644892800</updated>
+    </task>
+    <task id="LOCAL-00194" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711645067968</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1711645067968</updated>
+    </task>
+    <task id="LOCAL-00195" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1711647099387</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1711647099387</updated>
+    </task>
+    <task id="LOCAL-00196" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1712360499033</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1712360499033</updated>
+    </task>
+    <task id="LOCAL-00197" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1712360525316</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1712360525316</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
