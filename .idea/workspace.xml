@@ -10,15 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08a2b9c9-bd09-4643-b4fe-a8a29bd92724" name="Changes" comment="Maxwell Christian">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lo_jdbc/FindGrade.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/lo_networking/tic_tac_toe/TicTacToeClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/lo_networking/tic_tac_toe/TicTacToeConstants.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/lo_networking/tic_tac_toe/TicTacToeServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_sim_2/DiceGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_sim_2/DiceGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_2024_sim_2/Max2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2024_sim_2/Max2DArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -607,15 +601,7 @@
       <workItem from="1712177438967" duration="26000" />
       <workItem from="1712181621265" duration="19000" />
       <workItem from="1712335096959" duration="3306000" />
-      <workItem from="1712361296689" duration="310000" />
-    </task>
-    <task id="LOCAL-00149" summary="Maxwell Christian">
-      <option name="closed" value="true" />
-      <created>1707154405708</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1707154405708</updated>
+      <workItem from="1712361296689" duration="525000" />
     </task>
     <task id="LOCAL-00150" summary="Maxwell Christian">
       <option name="closed" value="true" />
@@ -1001,7 +987,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712360525316</updated>
     </task>
-    <option name="localTasksCounter" value="198" />
+    <task id="LOCAL-00198" summary="Maxwell Christian">
+      <option name="closed" value="true" />
+      <created>1712361686934</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1712361686936</updated>
+    </task>
+    <option name="localTasksCounter" value="199" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
