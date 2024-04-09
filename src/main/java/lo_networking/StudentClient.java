@@ -31,8 +31,6 @@ public class StudentClient {
             // close the connection
             connectedServer.close();
 
-
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
