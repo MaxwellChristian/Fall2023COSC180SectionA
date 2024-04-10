@@ -41,7 +41,8 @@ public class StudentServer {
                         + "\n");
 
                 // Handle client connection in a separate thread
-                Thread connectedClientThread = new Thread(() -> handleClientConnection(clientSocket));
+                Thread connectedClientThread =
+                        new Thread(() -> handleClientConnection(clientSocket));
                 connectedClientThread.setDaemon(true);
                 connectedClientThread.start();
             }
@@ -51,7 +52,8 @@ public class StudentServer {
     }
 
     private static void handleClientConnection(Socket clientSocket) {
-        try (ObjectInputStream inputStream = new ObjectInputStream(clientSocket.getInputStream())) {
+        try (ObjectInputStream inputStream =
+                     new ObjectInputStream(clientSocket.getInputStream())) {
             while (true) {
 
                 // fetch the command from the client
@@ -61,7 +63,8 @@ public class StudentServer {
                 Object responseToClient = executeCommand(commandFromClient);
 
                 // send the result back to the client
-                ObjectOutputStream objectOutputStream = new ObjectOutputStream(clientSocket.getOutputStream());
+                ObjectOutputStream objectOutputStream =
+                        new ObjectOutputStream(clientSocket.getOutputStream());
                 objectOutputStream.writeObject(responseToClient);
                 objectOutputStream.close();
             }
@@ -79,7 +82,8 @@ public class StudentServer {
 
         if (commandFromClient.equals("DB_FETCH_STUDENTS_SENIOR")) {
             // connect to database
-            Connection connection = DBHelper.connect(DBHelper.DB_TYPE.ACCESS, "Students.accdb");
+            Connection connection =
+                    DBHelper.connect(DBHelper.DB_TYPE.ACCESS, "Students.accdb");
 
             String query = "SELECT " +
                         "LastName as LN, FirstName AS FN " +
