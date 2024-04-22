@@ -2,6 +2,7 @@ module Fall2023COSC180SectionA {
     requires javafx.graphics;
     requires javafx.controls;
     requires java.sql;
+    requires java.desktop;
 
     exports gui;
     exports gui.animations;
@@ -15,5 +16,6 @@ module Fall2023COSC180SectionA {
     exports lo_jdbc;
 
     exports _2024_sim_2;
+    exports gui.assign_3;
 
 }
